@@ -89,14 +89,14 @@
 
 @for $i from 1 through 40 {
   .duration-#{$i*15} {
-    @media screen and (min-width: $medium) {
+  /* @media screen and (min-width: $medium) {
       min-height: calculate-duration($i);
     }
 
-    @media screen and (max-width: $medium) {
+    @media screen and (max-width: $medium) {*/
       &.evento{
         min-height: 7em;
       }
-    }
+   // }
   }
 }

@@ -274,3 +274,10 @@ p{
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   margin-top: -10vh;
 }
+
+
+.spacer{
+  @media screen and (min-width: $large) {
+  height: 7em;
+  }
+}

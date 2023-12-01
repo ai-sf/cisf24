@@ -1,4 +1,4 @@
-$.fn.nextOrFirst = function(selector) {
+/*$.fn.nextOrFirst = function(selector) {
   var next = this.next(selector);
   return(next.length) ? next : this.prevAll(selector).last();
 }
@@ -24,8 +24,9 @@ $.fn.accordion = function (cssclass) {
     }
   });
 
-}
+}*/
 var visible = 0;
+/*
 $(document).ready(function () {
   $(".gray").css({ display: "flex" }).hide();
 
@@ -95,5 +96,5 @@ $(document).ready(function () {
     $(".gray img").animate({ opacity: 0 });
   });
 
-});
+});*/
 

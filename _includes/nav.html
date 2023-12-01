@@ -1,15 +1,24 @@
-<nav class="navbar">
+<div x-data="{ isOpen: false }">
 
-</nav>
 
-<ul class="nav-menu">
-  {% for item in site.data.menu %}
-    <li><a href="{{item.link}}">{{item.text}}</a></li>
-  {% endfor %}
-</ul>
+<nav class="navbar {{include.class}}" :class="{ 'raised': !isTop }">
 
-<div class="gray">
-  <img src="">
 
-</div>
 
+		<div class="site-name">
+			<a href="{{site.url}}/index.html">
+				<img src="{{site.url}}/{{site.data.generic.logo}}"/>
+			</a>
+		</div>
+
+
+		<div class="hamburger" :class="isOpen? 'active' : '' " @click="isOpen = !isOpen; document.getElementById('main').classList.toggle('active');">
+
+
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</div>
+	</nav>
+
+</div></div>

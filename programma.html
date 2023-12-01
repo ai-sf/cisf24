@@ -3,5 +3,51 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+title: Programma
 ---
+<div class="container">
+<div class="columns">
+  {% for giorno in site.data.programma %}
+  <div>
+  <div>
+    <div class="day-header">
+      {{giorno.giorno}}
+    </div>
+    </div>
 
+    {% for evento in giorno.eventi %}
+    {% if evento.empty %}
+
+      <div class="duration-{{evento.empty}}"></div>
+    {% else  %}
+<div class="evento  duration-{{evento.durata}}">
+
+    <div class="card">
+
+    <div class="card-header">
+
+      <div class="ora-evento">
+        {{evento.ora | date: ""}}
+      </div>
+      <div class="titolo-evento" style="color: black;">
+        {{evento.titolo}}
+      </div>
+
+    </div>
+
+
+    <div class="card-body">
+          <!---<div class="luogo-evento">
+            {{evento.luogo}} - {{evento.aula}}
+          </div>
+-->
+        </div>
+    </div>
+    </div>
+    {% endif %}
+      {% endfor %}
+  </div>
+
+  {% endfor %}
+</div>
+</div>

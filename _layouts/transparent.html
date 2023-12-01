@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="it">
+  {% include head.html %}
+
+<body x-data="{ isTop: true }" x-init="() => { window.addEventListener('scroll', () => { isTop = window.scrollY === 0; }); }"></body>
+
+{% include nav_menu.html  %}
+    <main id="main">
+{% include nav.html class="fixed" %}
+
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </body>
+  {% include scripts.html %}
+
+</html>

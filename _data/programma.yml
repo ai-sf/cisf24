@@ -1,0 +1,112 @@
+- giorno: "17/04"
+  eventi:
+    - empty: 60
+    - ora: "10:00"
+      titolo: "Accoglienza e registrazione"
+      luogo: Dipartimento di Fisica
+      aula: Atrio e Aula B
+      durata: 300
+    - ora: "15:00"
+      titolo: "Cerimonia di apertura"
+      luogo: Dipartimento di Fisica
+      aula: Aula Magna
+      durata: 120
+    - ora: "17:00"
+      titolo: Coffee Break
+      luogo: Dipartimento di Fisica
+      aula: Fisica Beach
+      durata: 30
+    - ora: "17:30"
+      titolo: Plenaria I
+      luogo: Dipartimento di Fisica
+      aula: Aula Magna
+      durata: 120
+    - ora: "19:30"
+      titolo: Cena autogestita
+      empty: 120
+    - ora: "21:30"
+      titolo: Attività sociale
+      luogo: Hotel Combo
+      durata: 150
+
+- giorno: "18/04"
+  eventi:
+    - ora: "09:00"
+      titolo: Visite ai laboratori
+      durata: 270
+    - ora: "13:30"
+      titolo: Pranzo
+      luogo: Dipartimento di Fisica
+      durata: 60
+    - ora: "14:30"
+      titolo: Plenaria II
+      luogo: Teatro Colosseo
+      durata: 120
+    - ora: "16:30"
+      titolo: Coffee Break
+      luogo: Teatro Colosseo
+      durata: 30
+    - ora: "17:00"
+      titolo : Plenaria III
+      luogo: Teatro Colosseo
+      durata: 120
+    - titolo: Tempo libero
+      empty: 90
+    - ora: "20:30"
+      titolo: Cena sociale
+      durata: 90
+    - ora: "22:00"
+      titolo: Serata libera
+      empty: 120
+- giorno: "19/04"
+  eventi:
+    - titolo: Visita a Torino, Accademia delle Scienze
+      ora: "09:00"
+      durata: 240
+    - titolo: Pranzo autogestito
+      ora: "13:00"
+      durata: 90
+    - titolo: Assemblea Generale Annuale
+      ora: "14:30"
+      durata: 270
+    - titolo: Cena libera
+      ora: "19:00"
+      empty: 120
+    - titolo: Bingo torinese
+      ora: "21:00"
+      durata: 180
+- giorno: "20/04"
+  eventi:
+    - empty: 60
+    - titolo: Plenaria IV
+      ora: "10:00"
+      durata: 60
+    - titolo: Coffee Break
+      durata: 30
+      ora: "11:00"
+    - empty: 60
+    - titolo: Plenaria V
+      ora: "12:30"
+      durata: 90
+    - titolo: Pranzo organizzato
+      ora: "14:00"
+      durata: 60
+    - titolo: Parallel Session
+      durata: 180
+      ora: "15:00"
+    - empty: 180
+    - titolo: Serata finale
+      ora: "21:00"
+      durata: 180
+- giorno: "21/04"
+  eventi:
+    - empty: 60
+    - titolo: Plenaria VI
+      ora: "10:00"
+      durata: 150
+    - titolo: Pranzo
+      ora: "12:30"
+      durata: 60
+    - titolo: Cerimonia di chiusura
+      ora: "13:30"
+      durata: 90

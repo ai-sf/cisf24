@@ -1,0 +1,22 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+title: Iscrizione
+---
+<div class="container-smaller">
+<div class="card">
+  {% for paragraph in site.data.iscrizione %}
+  <p>{{paragraph}}</p>
+  {% endfor %}
+</div>
+
+<div style="display: flex; width: 100%; justify-content: center; margin-top: 5em;">
+<a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfvcSETSIs24eQzFrwnHct1r26KK5Y41BLUCfQrEwa5YcmSzA/viewform?usp=sf_link" target="_blank">Iscriviti</a>
+
+</div>
+
+</div>
+
+

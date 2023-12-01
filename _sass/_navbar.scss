@@ -1,12 +1,13 @@
 $width-desktop: 70px;
-$width-mobile: 50px;
-$margin: 15px;
+$width-mobile: 30px;
+$margin-desktop: 15px;
+$margin-mobile: 8px;
 $height-desktop: 5px;
 $height-mobile: 3px;
 $angle-mobile: 40deg;
 $angle-desktop: 30deg;
-$translate-desktop: $height-desktop + $margin;
-$translate-mobile: $height-mobile + $margin;
+$translate-desktop: $height-desktop + $margin-desktop;
+$translate-mobile: $height-mobile + $margin-mobile;
 
 
 
@@ -163,7 +164,7 @@ nav.navbar {
       display: block;
       width: $width-desktop;
       height: $height-desktop;
-      margin: $margin auto;
+      margin: $margin-desktop auto;
       -webkit-transition: all 0.3s ease;
       transition: all 0.3s ease;
       background-color: white;
@@ -171,6 +172,7 @@ nav.navbar {
       @media screen and (max-width: $small) {
         width: $width-mobile;
         height: $height-mobile;
+        margin: $margin-mobile auto;
       }
     }
   }
@@ -187,7 +189,7 @@ nav.navbar {
     transform: translateY(20px) rotate(45deg);
 
     @media screen and (max-width: $small) {
-      transform: translateY($translate-mobile) rotate($angle-mobile);
+      transform: translateY(11px) rotate(45deg);
     }
   }
 
@@ -195,7 +197,7 @@ nav.navbar {
     transform: translateY(-20px) rotate(-45deg);
 
     @media screen and (max-width: $small) {
-      transform: translateY(-19px) rotate(-45deg);
+      transform: translateY(-11px) rotate(-45deg);
     }
   }
 

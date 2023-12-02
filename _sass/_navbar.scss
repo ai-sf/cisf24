@@ -127,7 +127,7 @@ div.nav-menu {
 }
 
 nav.navbar {
-  height: 120px;
+  height: clamp(15vh, 120px);
   padding-left: 22px;
   padding-right: 33px;
   background-color: transparent;

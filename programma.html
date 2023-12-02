@@ -9,12 +9,10 @@ title: Programma
 <div class="columns">
   {% for giorno in site.data.programma %}
   <div>
-  <div>
     <div class="day-header">
       {{giorno.giorno}}
     </div>
-    </div>
-
+    <div>
     {% for evento in giorno.eventi %}
     {% if evento.empty %}
 
@@ -46,8 +44,11 @@ title: Programma
     </div>
     {% endif %}
       {% endfor %}
-  </div>
+</div>
+
+    </div>
 
   {% endfor %}
+
 </div>
 </div>

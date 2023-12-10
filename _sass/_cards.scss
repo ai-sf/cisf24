@@ -100,3 +100,15 @@
    // }
   }
 }
+
+.more{
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em;
+  color: black;
+  transition: transform 0.3s ease;
+  &.rotated{
+    transform: rotate(180deg) translateY(25%);
+  }
+}
+

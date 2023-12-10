@@ -1,0 +1,66 @@
+- name: Federico Canterucci
+  role: Coordinatore generale
+  description: |
+    Studente di Laurea Magistrale in Fisica Nucleare e Subnucleare presso l’Università degli Studi di Torino, ricopre il ruolo di Presidente AISF di Torino. Conosciuto per la sua natura controversa, dedica passione e impegno in ogni suo progetto. Integrando la sua formazione accademica, ha guidato diverse mostre d’arte e scientifiche. Evidenzia inoltre un forte interesse per il cinema e la danza: la musica è essenziale nella sua vita quotidiana. Per lui CISF è la dimostrazione che la vita da studente va oltre i libri, è un’opportunità per vivere relazioni umane profonde e significative.
+  photo: img/co/Federico_Canterucci.jpg
+
+- name: Luca Attinà
+  role: Responsabile PR
+  description: |
+    Studente della Laurea Magistrale in Fisica Nucleare e Subnucleare presso l'Università di Torino, ha conseguito anche la Laurea Triennale in Fisica nello stesso ateneo. Attratto fin da piccolo dal mondo scientifico, vuole specializzarsi nell'ambito della Fisica delle Particelle, puntando contemporaneamente all'insegnamento accademico. Si appassiona facilmente ai fenomeni dell'ambiente che lo circonda e si diletta ad approfondirne le dinamiche. Nei momenti in cui mette da parte lo studio ama viaggiare per scoprire nuovi posti e realtà.
+  photo: img/co/Luca_Attina.jpg
+
+- name: Mario Baravetto
+  role: Responsabile Eventi
+  description: |
+    Studia Fisica dei sistemi complessi a Torino, svolge il ruolo di IT Manager in AISF Torino ed è appassionato di machine learning. Gli piace sfruttare il pensiero critico per rielaborare eventi quotidiani e vedere tutto da una prospettiva diversa. Cerca di essere il più estroverso e aperto possibile con le persone che incontra per lasciare a tutti una sua immagine nei ricordi.
+  photo: img/co/Mario_Baravetto.jpg
+
+- name: Elena Piccardi
+  role: Responsabile Eventi
+  description: |
+    Studentessa al terzo anno di Fisica presso l’Università degli Studi di Torino. È attratta dalla fisica teorica ma ancora il suo futuro è da decidere. La maggior parte del tempo lo passa studiando, in quello che rimane le piace molto viaggiare, sempre alla ricerca di qualcosa di strano da fare. Le piace disegnare, conoscere nuove persone seppur all’apparenza un po’ timida, ma al divertimento non dice mai di no. Ps: fa foto a qualsiasi cosa. In laboratorio.
+  photo: img/co/Elena_Piccardi.jpg
+
+- name: Helian Beltrami
+  role: Responsabile Eventi
+  description: |
+    Studente di Laurea Triennale in Fisica presso l'Università degli Studi di Torino, ricopre il ruolo di Segretario presso il comitato locale di AISF. Fin da piccolo curioso del mondo e del suo funzionamento, è sempre pronto a condividere tale passione con chiunque.
+    Fuori dall’Università si divide tra sport di squadra e realtà associativa per la realizzazione di eventi di carattere musicale e artistico a trecentosessanta gradi.
+  photo: img/co/Helian_Beltrami.jpg
+
+- name: Lorenzo Visca
+  role: Responsabile Alloggi e Trasporti
+  description: |
+    Studente Triennale presso il Dipartimento di Fisica dell'Università degli Studi di Torino, i suoi interessi comprendono qualunque aspetto della Fisica che non richieda più di due tappe in laboratorio, ma ha una passione latente per la programmazione che non esita a manifestarsi davanti alla più banale analisi dati. Ama passare il (poco) tempo fuori dal Dipartimento viaggiando, e la sua vacanza ideale è alla guida con tre amici in giro per l’Italia alla ricerca di improbabili piatti locali da scoprire.
+  photo: img/co/Lorenzo_Visca.jpg
+
+- name: Fabio Comitangelo
+  role: Responsabile Alloggi e Trasporti
+  description: |
+    Studente Triennale presso il Dipartimento di Fisica dell'Università degli Studi di Torino, ha la persistente necessità di capire che cosa ci sia in profondità delle cose. Ha trovato nel suo percorso il gusto di sperimentare nella vita (e in laboratorio). Pensa che la fisica sia un bel modo per sognare e per essere di sostegno a sé stessi e al prossimo.
+  photo: img/co/Fabio_Comitangelo.jpg
+
+- name: Giorgio Bergamin
+  role: Responsabile Laboratori
+  description: |
+    Giorgio, studente Triennale in Fisica presso UniTo, ama l'universo e le stelle. Il suo sogno è diventare astrofisico e studiare il cosmo. È un astrofotografo e fotografo naturalista, e adora sempre cimentarsi in nuove avventure e sfide.
+  photo: img/co/Giorgio_Bergamin.jpg
+
+- name: Roberto Ciccarelli
+  role: Responsabile IT
+  photo: img/co/Roberto_Ciccarelli.jpg
+  description: |
+    Roberto si è da poco laureato in Matematica all'Università di Torino e ora prosegue con una borsa di studio e ricerca al Dipartimento di Matematica. È stato Presidente del LC di Trento, membro del Comitato Esecutivo come IT Manager e ora fa parte del Comitato Esecutivo di IAPS.
+
+- name: Nicolò Bagnasco
+  role: Responsabile Programma
+  description: |
+    Nicolò studia Fisica a Torino e la sua passione per questa materia è nata quando è stato al CERN per un pó di tempo da ragazzino. Innamoratosi dell’ambiente della ricerca, ha maturato un profondo interesse per la comunicazione della scienza. È molto attivo in ambito aerospaziale, collaborando in associazioni e progetti. Nel tempo libero scrive ed è un ostinato frequentatore di concerti di musica classica, teatro e mostre d’arte.
+  photo: img/co/Nicolo_Bagnasco.jpg
+
+- name: Gioele Christille
+  role: Responsabile Sponsor
+  description: |
+    Gioele ha da poco completato la Laurea Triennale presso il Dipartimento di Fisica dell'Università degli Studi di Torino e ora è studente Magistrale in Fisica Biomedica presso lo stesso ateneo. Riempie il tempo libero dividendosi fra videogiochi, giochi da tavolo, letture e podcast.
+  photo: img/co/Gioele_Christille.jpg

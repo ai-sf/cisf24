@@ -61,6 +61,7 @@ body,html{
 }
 
 .flex-column{
+    display: flex !important;
   flex-direction: column !important;
 }
 
@@ -71,14 +72,21 @@ body,html{
   @media screen and (min-width: $large){
     flex-direction: row;
   }
+
+  &.reverse-on-small{
+    @media screen and (max-width: $large){
+      flex-direction: column-reverse;
+    }
+
+  }
 }
 
 .justify-content-center{
-  justify-content: center;
+  justify-content: center !important;
 }
 
 .align-items-center{
-  align-items: center;
+  align-items: center !important;
 }
 
 .justify-content-start{
@@ -199,13 +207,9 @@ h4, .h4 {
   width: 100%;
   text-align: center;
    z-index: 999;
-  /* @media screen and (min-width: $large){
-     position: sticky;
-     &.raised{
-      color: white;
-     }
+   @media screen and (max-width: $large){
+    margin-top: 3em;
    }
-   top: 1em;*/
   h1{
     margin: 0px !important;
     padding: 0;

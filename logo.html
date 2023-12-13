@@ -10,29 +10,31 @@ title: Il logo di CISF24
 
 <div class="card text-larger" style="padding:1em;">
 
-		{{ site.data.logo.descrizione}}
-
+    {% for par in site.data.logo.descrizione %}
+    <p style="margin-bottom: 0.3em; margin-top: 0.3">{{par}}</p>
+    {% endfor %}
 </div>
 
 <div>
 
 </div>
 </div>
-<div class="container container-tiny flex-column-or-row">
+<div class="container container-tiny justify-content-center align-items-center reverse-on-small flex-column-or-row" style="gap:2em">
 
 <div class="card" style="padding:1em">
-
 
 <div class="card-header flex-column" style="gap:0">
   <div class="text-bold text-accent h2">{{ site.data.logo.biografia.nome}}</div>
   <div class="text-bold text-black h3">{{ site.data.logo.biografia.titolo}}</div>
 </div>
-<div class="card-body">
-    {{ site.data.logo.biografia.testo}}
+<div class="card-body flex-column justify-content-center align-items-center">
+    <div>
+{{ site.data.logo.biografia.testo}}
+    </div>
 </div>
   </div>
-  <div style="max-width: 300px; margin-left: 1em;" >
-<img style="width: 100%; border-radius: 50%;" class="shadow" src="{{site.data.logo.biografia.foto}}">
-
+  <div style="max-width: 300px; padding:1em" class="flex-column align-items-center justify-content-center">
+    <img style="width: 100%; border-radius: 50%; margin-bottom:0.5em;" class="shadow" src="{{site.data.logo.biografia.foto}}">
+    <div style="text-align:center;" class="h3 text-bold text-white">{{site.data.logo.biografia.contatto}}</div>
     </div>
 </div>

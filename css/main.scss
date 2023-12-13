@@ -61,7 +61,16 @@ body,html{
 }
 
 .flex-column{
+  flex-direction: column !important;
+}
+
+
+.flex-column-or-row{
+  display: flex;
   flex-direction: column;
+  @media screen and (min-width: $large){
+    flex-direction: row;
+  }
 }
 
 .justify-content-center{
@@ -70,6 +79,10 @@ body,html{
 
 .align-items-center{
   align-items: center;
+}
+
+.justify-content-start{
+    justify-content: flex-start;
 }
 
 
@@ -89,19 +102,19 @@ h1, h2, h3, h4, h5, h6{
 
 
 
-h1{
+h1, .h1{
   font-size: clamp(24pt, 8vw, 5rem);
 }
 
-h2{
+h2, .h2{
   font-size: clamp(20pt, 4vw, 3rem);
 }
 
-h3{
+h3, .h3{
   font-size: clamp(16pt, 3vw, 1.5rem);
 }
 
-h4 {
+h4, .h4 {
   font-size: clamp(14pt, 2.5vw, 1rem);
 }
 
@@ -223,6 +236,25 @@ h4 {
   }
 }
 
+
+.container-tiny {
+    width: 95%;
+    margin: auto;
+
+    @media screen and (min-width: $large) {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    .card {
+        padding: 2em;
+    }
+}
+
 p{
   font-size: clamp(14pt, 2.5vw, 1rem);
 }
@@ -340,4 +372,10 @@ a{
       width: 25%;
     }
   }
+}
+
+
+
+.shadow{
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.5) 0px 40px 80px -10px, rgba(0, 0, 0, 0.4) 0px 20px 50px -20px;
 }

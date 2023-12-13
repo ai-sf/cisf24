@@ -1,0 +1,38 @@
+---
+layout: default
+title: Il logo di CISF24
+---
+<div class="container container-smaller flex-row-or-row">
+<div style="margin: auto; max-width: 700px; margin-bottom: 2em;">
+	<img src="{{site.data.logo.logo}}">
+</div>
+
+
+<div class="card text-larger" style="padding:1em;">
+
+		{{ site.data.logo.descrizione}}
+
+</div>
+
+<div>
+
+</div>
+</div>
+<div class="container container-tiny flex-column-or-row">
+
+<div class="card" style="padding:1em">
+
+
+<div class="card-header flex-column" style="gap:0">
+  <div class="text-bold text-accent h2">{{ site.data.logo.biografia.nome}}</div>
+  <div class="text-bold text-black h3">{{ site.data.logo.biografia.titolo}}</div>
+</div>
+<div class="card-body">
+    {{ site.data.logo.biografia.testo}}
+</div>
+  </div>
+  <div style="max-width: 300px; margin-left: 1em;" >
+<img style="width: 100%; border-radius: 50%;" class="shadow" src="{{site.data.logo.biografia.foto}}">
+
+    </div>
+</div>

@@ -4,7 +4,7 @@
     - ora: "10:00"
       titolo: "Accoglienza e registrazione"
       luogo: Dipartimento di Fisica
-      aula: Atrio e Aula B
+      aula: Atrio
       durata: 300
     - ora: "15:00"
       titolo: "Cerimonia di apertura"
@@ -18,12 +18,12 @@
       durata: 30
     - ora: "17:30"
       titolo: Plenaria I
-      luogo: Dipartimento di Fisica
-      aula: Aula Magna
+      #luogo: Dipartimento di Fisica
+      #aula: Aula Magna
       durata: 120
     - ora: "19:30"
       titolo: Cena autogestita
-      empty: 120
+      durata: 120
     - ora: "21:30"
       titolo: Attività sociale
       luogo: Hotel Combo
@@ -33,22 +33,23 @@
   eventi:
     - ora: "09:00"
       titolo: Visite ai laboratori
+      link: pargina dei laboratori
       durata: 270
     - ora: "13:30"
-      titolo: Pranzo
-      luogo: Dipartimento di Fisica
+      titolo: Pranzo organizzato
+      #luogo: Dipartimento di Fisica
       durata: 60
     - ora: "14:30"
       titolo: Plenaria II
-      luogo: Teatro Colosseo
+      #luogo: Teatro Colosseo
       durata: 120
     - ora: "16:30"
       titolo: Coffee Break
-      luogo: Teatro Colosseo
+      #luogo: Teatro Colosseo
       durata: 30
     - ora: "17:00"
       titolo : Plenaria III
-      luogo: Teatro Colosseo
+      #luogo: Teatro Colosseo
       durata: 120
     - titolo: Tempo libero
       empty: 90
@@ -67,33 +68,36 @@
       ora: "13:00"
       durata: 90
     - titolo: Assemblea Generale Annuale
-      ora: "14:30"
-      durata: 270
+      ora: "14:00"
+      durata: 360
     - titolo: Cena libera
-      ora: "19:00"
+      ora: "20:00"
       empty: 120
     - titolo: Bingo torinese
-      ora: "21:00"
+      ora: "21:30"
       durata: 180
 - giorno: "20/04"
   eventi:
     - empty: 60
     - titolo: Plenaria IV
+      luogo: Palazzo Aldo Moro
+      aula: Aula Magna
       ora: "10:00"
       durata: 60
+    - titolo: Pranzo organizzato
+      ora: "12:30"
+      durata: 60
+    - titolo: Plenaria V
+      ora: "13:30"
+      luogo: Dipartimento di Fisica
+      aula: Aula Magna
+      durata: 90
     - titolo: Coffee Break
       durata: 30
-      ora: "11:00"
-    - empty: 60
-    - titolo: Plenaria V
-      ora: "12:30"
-      durata: 90
-    - titolo: Pranzo organizzato
-      ora: "14:00"
-      durata: 60
+      ora: "15:00"
     - titolo: Parallel Session
       durata: 180
-      ora: "15:00"
+      ora: "15:30"
     - empty: 180
     - titolo: Serata finale
       ora: "21:00"
@@ -103,10 +107,12 @@
     - empty: 60
     - titolo: Plenaria VI
       ora: "10:00"
+      luogo: Politencico di Torino
+      aula: Aula Magna
       durata: 150
-    - titolo: Pranzo
+    - titolo: Pranzo autogestito
       ora: "12:30"
       durata: 60
     - titolo: Cerimonia di chiusura
-      ora: "13:30"
-      durata: 90
+      ora: "14:00 - 16:00"
+      durata: 120

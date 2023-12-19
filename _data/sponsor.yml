@@ -13,8 +13,8 @@
     - nome: "Accademia delle Scienze di Torino"
       logo: "img/sponsor/accademia_scienze_torino.png"
       url: "https://www.accademiadellescienze.it/"
-    - nome: "Biennale Tecnologia 2024"
-      url: https://www.biennaletecnologia.it/
+#    - nome: "Biennale Tecnologia 2024"
+#      url: https://www.biennaletecnologia.it/
 - section: "Con il patrocinio di"
   list:
     - nome: "Università di Torino"

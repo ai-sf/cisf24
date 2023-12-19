@@ -6,5 +6,7 @@
   link: "iscrizione"
 - text: "Comitato Organizzatore"
   link: "comitato_organizzatore"
+- text: Speakers
+  link: speakers
 - text: "Il logo"
   link: "logo"

@@ -1,0 +1,63 @@
+- nome: Luca Parmitano
+  descrizione: |
+    Astronauta e militare italiano, è stato il primo italiano al comando della Stazione Spaziale Internazionale, nonchè il primo italiano ad aver effettuato un'attività extraveicolare.
+    Dopo aver ottenuto diversi riconoscimenti e qualifiche in ambito aeronautico, è stato selezionato come astronauta dall'ESA nel 2009. In totale ha trascorso nello spazio 366 giorni.
+  mostra: false
+  ruolo:
+  foto: img/speakers/luca_parmitano.png
+
+- nome: Paolo Gambino
+  descrizione: |
+    Professore ordinario presso l'Università di Torino, la sua attività scientifica verte principalmente sulle verifiche del Modello Standard, nel contesto della fisica di precisione elettrodebole e del flavour. È socio corrispondente dell'Accademia delle Scienze di Torino dal 2019 e cofondatore della serie dei "Workshop on the CKM Unitarity Triangle" che si tengono ogni due anni in varie parti del mondo.
+  mostra: false
+  ruolo:
+  foto: img/speakers/paolo_gambino.png
+
+- nome: Antonaldo Diaferio
+  descrizione: |
+    Professore ordinario presso l'Università di Torino, si occupa di cosmologia, teoria della gravitazione e struttura su grande scala dell'universo. Nel 2008 ha fondato il gruppo CAUSTIC, che si occupa di interpretare la dinamica delle strutture cosmiche con teorie di gravità alternative alla Relatività Generale. Tra i diversi ruoli ricoperti è membro dell'International Astronomical Union (IAU) e, dal 2017, socio corrispondente dell'Accademia delle Scienze di Torino.
+  mostra: false
+  ruolo:
+  foto: img/speakers/antonaldo_diaferio.png
+
+- nome: Joachim Mnich
+  descrizione: |
+    Specializzato nel settore della Fisica delle Particelle, è un esperto nell'ambito delle interazioni elettrodeboli e nello sviluppo di rivelatori per collisori di adroni e elettroni-positroni. Dopo essere entrato a far parte del gruppo CMS divenne professore presso l'Università di Amburgo nel 2005 e Research Director presso il DESY (Amburgo) nel 2009.
+    È Director for Research and Computing presso il CERN dal 2021.
+  mostra: false
+  foto: img/speakers/joachim_mnich.png
+
+- nome: Elisa Palazzi
+  descrizione: |
+    Climatologa e professoressa associata presso l'Università di Torino, si occupa dello studio dei cambiamenti climatici e del ciclo idrologico attuali e futuri, con particolare attenzione verso le regioni montane. È attualmente ricercatrice dell'Istituto di Scienze dell'Atmosfera e del Clima (ISAC) presso il Consiglio Nazionale delle Ricerche (CNR). Svolge numerose attività di divulgazione, conferenze e seminari nel settore climatico rivolte a diverse tipologie di pubblico e a studenti.
+  foto: img/speakers/elisa_palazzi.png
+  ruolo:
+  mostra: false
+
+- nome: Davide Gandolfi
+  descrizione:  |
+    Professore ordinario presso l’Università di Torino, è specializzato nello studio di Esopianeti.
+  foto: img/speakers/davide_gandolfi.png
+  ruolo:
+  mostra: false
+
+- nome: Stefania Beolè
+  descrizione: |
+    Professoressa ordinaria presso l'Università di Torino, svolge attività di ricerca nell'ambito della fisica degli ioni pesanti relativistici e degli sviluppi di rivelatori dedicati a questo campo, in particolare rivelatori a pixel monolitici in silicio. Dal 1996 fa parte della collaborazione ALICE presso il CERN, di cui è stata responsabile locale e coordinatrice delle attività dei diversi laboratori coinvolti per il progetto di upgrade dell'Inner Tracking System (ITS).
+  foto: img/speakers/stefania_beole.png
+  ruolo: Full Professor at UniTo
+  mostra: true
+
+- nome: Marco Panero
+  descrizione: |
+    Professore associato presso l'Università di Torino, si occupa di studi teorici nel settore della Fisica delle Interazioni Fondamentali, con particolare attenzione all'ambito della teoria dei campi reticolari. Ha partecipato come membro in diversi progetti di carattere nazionale e internazionale, tra cui il progetto “Color Confinement and QCD Strings”, nonchè a numerose conferenze in diverse parti del mondo.
+  foto: img/speakers/marco_panero.png
+  mostra: false
+  ruolo:
+
+- nome: Matteo Brogi
+  descrizione: |
+    Professore associato presso l'Università di Torino, si occupa di spettroscopia volta a studiare la composizione atmosferica di esopianeti, fattore utile per comprenderne la storia e l'evoluzione. Tra il 2014 e il 2017 si è aggiudicato la “Nasa Hubble Fellowship" presso l’Università di Colorado Boulder per i suoi contributi alle nuove tecniche sviluppate. Prima di trasferirsi a Torino,nel 2022, ha lavorato come membro del gruppo di Astronomia e Astrofisica presso l'Università di Warwick.
+  foto: img/speakers/matteo_brogi.png
+  mostra: true
+  ruolo: Associate Professor at UniTo

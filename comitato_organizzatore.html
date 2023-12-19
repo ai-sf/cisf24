@@ -6,7 +6,7 @@ title: Comitato Organizzatore
   <div class="rows-or-columns">
 
   {% for person in site.data.comitato_organizzatore %}
-<div class="card" style="padding:1em" x-data="{ expanded: false }" @click="expanded = ! expanded">
+<div class="card" style="padding:1em;width: clamp(300px, 95%, 500px)" x-data="{ expanded: false }" @click="expanded = ! expanded">
 
 
 <div class="card-header flex-row items-center">

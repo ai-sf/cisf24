@@ -388,3 +388,12 @@ a{
 .text-center{
     text-align: center;
 }
+
+.overlay-opacity{
+    opacity: 1;
+    transition: opacity 0.3s ease;
+
+    &:hover{
+        opacity: 0.5;
+    }
+}

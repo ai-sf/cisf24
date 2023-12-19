@@ -9,7 +9,10 @@ title: Sponsor
     <div class="card">
         <div class="card-body flex-row justify-content-center align-items-center" style="gap: 2em; flex-wrap: wrap; margin: 0">
             {% for ente in section.list %}
-            <img style="max-height: 100px; max-width: 100%" src="{{ente.logo}}" alt="{{ente.nome}}" class="img-sponsor">
+            <a href="{{ente.url}}" class="overlay-opacity">
+                <img style="max-height: 100px; max-width: 100%" src="{{ente.logo}}" alt="{{ente.nome}}" class="img-sponsor">
+            </a>
+
             {% endfor %}
         </div>
     </div>

@@ -13,6 +13,9 @@
     - nome: "Accademia delle Scienze di Torino"
       logo: "img/sponsor/accademia_scienze_torino.png"
       url: "https://www.accademiadellescienze.it/"
+    - nome: "Politecnico di Torino"
+      logo: "img/sponsor/politecnico_torino.png"
+      url: "https://www.polito.it/"
 #    - nome: "Biennale Tecnologia 2024"
 #      url: https://www.biennaletecnologia.it/
 - section: "Con il patrocinio di"
@@ -20,15 +23,12 @@
     - nome: "Università di Torino"
       logo: "img/sponsor/unito.png"
       url: "https://www.unito.it/"
-    - nome: "Politecnico di Torino"
-      logo: "img/sponsor/politecnico_torino.png"
-      url: "https://www.polito.it/"
     - nome: "INRiM"
       logo: "img/sponsor/inrim.png"
       url: https://www.inrim.it
     - nome: "Dipartimento di Fisica - UniTo"
       logo: "img/sponsor/dip_fisica_unito.png"
-      url: https://fisica.campusnet.unito.it/do/home.pl
+      url: https://www.df.unito.it/do/home.pl
     - nome: "INFN"
       logo: "img/sponsor/INFN.png"
       url: https://home.infn.it

@@ -31,8 +31,8 @@
   descrizione: |
     Climatologa e professoressa associata presso l'Università di Torino, si occupa dello studio dei cambiamenti climatici e del ciclo idrologico attuali e futuri, con particolare attenzione verso le regioni montane. È attualmente ricercatrice dell'Istituto di Scienze dell'Atmosfera e del Clima (ISAC) presso il Consiglio Nazionale delle Ricerche (CNR). Svolge numerose attività di divulgazione, conferenze e seminari nel settore climatico rivolte a diverse tipologie di pubblico e a studenti.
   foto: img/speakers/elisa_palazzi.png
-  ruolo:
-  mostra: false
+  ruolo: Climatologist and Associate Professor at UniTo
+  mostra: true
 
 - nome: Davide Gandolfi
   descrizione:  |

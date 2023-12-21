@@ -8,9 +8,9 @@
 
 - nome: Paolo Gambino
   descrizione: |
-    Professore ordinario presso l'Università di Torino, la sua attività scientifica verte principalmente sulle verifiche del Modello Standard, nel contesto della fisica di precisione elettrodebole e del flavour. È socio corrispondente dell'Accademia delle Scienze di Torino dal 2019 e cofondatore della serie dei "Workshop on the CKM Unitarity Triangle" che si tengono ogni due anni in varie parti del mondo.
-  mostra: false
-  ruolo:
+    Professore ordinario presso l'Università di Torino, la sua attività scientifica verte principalmente sulle verifiche del Modello Standard, nel contesto della fisica di precisione elettrodebole e del flavour. Ha partecipato a numerosi progetti di ricerca finanziati da enti locali e nazionali, tra cui il "Precision Searches for New Physics", di cui è responsabile nazionale, che coinvolge le Università di Genova e Roma Tre e l'INFN. È socio corrispondente dell'Accademia delle Scienze di Torino dal 2019 e cofondatore della serie dei "Workshop on the CKM Unitarity Triangle" che si tengono ogni due anni in varie parti del mondo.
+  mostra: true
+  ruolo: Full Professor at UniTo and Corresponding Fellow of the Academy of Sciences of Turin
   foto: img/speakers/paolo_gambino.png
 
 - nome: Antonaldo Diaferio

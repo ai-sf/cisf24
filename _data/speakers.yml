@@ -50,10 +50,10 @@
 
 - nome: Marco Panero
   descrizione: |
-    Professore associato presso l'Università di Torino, si occupa di studi teorici nel settore della Fisica delle Interazioni Fondamentali, con particolare attenzione all'ambito della teoria dei campi reticolari. Ha partecipato come membro in diversi progetti di carattere nazionale e internazionale, tra cui il progetto “Color Confinement and QCD Strings”, nonchè a numerose conferenze in diverse parti del mondo.
+    Professore associato presso l'Università di Torino, si occupa di studi teorici nel settore della Fisica delle Interazioni Fondamentali, con particolare attenzione all'ambito della teoria dei campi reticolari. Ha partecipato come membro in diversi progetti di carattere nazionale e internazionale, tra cui il progetto “Color Confinement and QCD Strings”, nonché a numerose conferenze in varie parti del mondo. È inoltre Principal Investigator per la "CINECA INFN SFT High-Performance Computing Initiative".
   foto: img/speakers/marco_panero.png
-  mostra: false
-  ruolo:
+  mostra: true
+  ruolo: Associate Professor at UniTo
 
 - nome: Matteo Brogi
   descrizione: |

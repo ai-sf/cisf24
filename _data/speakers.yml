@@ -15,9 +15,9 @@
 
 - nome: Antonaldo Diaferio
   descrizione: |
-    Professore ordinario presso l'Università di Torino, si occupa di cosmologia, teoria della gravitazione e struttura su grande scala dell'universo. Nel 2008 ha fondato il gruppo CAUSTIC, che si occupa di interpretare la dinamica delle strutture cosmiche con teorie di gravità alternative alla Relatività Generale. Tra i diversi ruoli ricoperti è membro dell'International Astronomical Union (IAU) e, dal 2017, socio corrispondente dell'Accademia delle Scienze di Torino.
-  mostra: false
-  ruolo:
+    Professore ordinario presso l'Università di Torino, si occupa di cosmologia, teoria della gravitazione e struttura su grande scala dell'universo. Nel 2008 ha fondato il gruppo CAUSTIC, che si occupa di interpretare la dinamica delle strutture cosmiche con teorie di gravità alternative alla Relatività Generale. È membro dell'International Astronomical Union (IAU) e, dal 2017, socio corrispondente dell'Accademia delle Scienze di Torino. È inoltre Presidente dell'Associazione ApritiCielo che gestisce Infini.to, Planetario e Museo dell'Astronomia e dello Spazio di Torino.
+  mostra: true
+  ruolo: Full Professor at UniTo and Corresponding Fellow of the Academy of Sciences of Turin
   foto: img/speakers/antonaldo_diaferio.png
 
 - nome: Joachim Mnich

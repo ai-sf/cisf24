@@ -9,18 +9,18 @@ title: Speakers
 
   {% for person in site.data.speakers %}
   {% if person.mostra %}
-<div class="card" style="padding:1em;" x-data="{ expanded: false }" @click="expanded = ! expanded">
+<div class="card flex-column" style="align-items:stretch; justify-content: center; padding:1em;" x-data="{ expanded: false }" @click="expanded = ! expanded">
 
 
-<div class="card-header flex-row items-center">
+<div class="card-header flex-row" style="align-items: center; justify-content: flex-start;">
 <span class="more" :class="expanded ? 'rotated' : ''">
 	<i class="material-icons-outlined">expand_more</i>
 </span>
 
-  <div class="img-squiggly" style="max-width: 120px;">
+  <div class="img-squiggly" style="max-width: clamp(80px, 20%, 130px)">
     <img src="{{person.foto}}">
   </div>
-  <div>
+  <div style="flex:1">
     <div class="text-bold text-accent">{{person.nome}}</div>
     <div class="text-tiny text-black text-italic" style="margin-top: 0.1em;">{{person.ruolo}}</div>
     <div class="text-bold text-smaller text-black" style="margin-top: 0.2em;">{{person.sessione}}</div>

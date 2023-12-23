@@ -3,12 +3,13 @@ layout: default
 title: Speakers
 ---
 
-<div class="container">
-  <div class="rows-or-columns">
+<div class="container-smaller">
+  <div class="two-columns">
+    {% assign i = 0%}
 
   {% for person in site.data.speakers %}
   {% if person.mostra %}
-<div class="card" style="padding:1em;width: clamp(300px, 95%, 500px)" x-data="{ expanded: false }" @click="expanded = ! expanded">
+<div class="card" style="padding:1em;" x-data="{ expanded: false }" @click="expanded = ! expanded">
 
 
 <div class="card-header flex-row items-center">
@@ -16,12 +17,13 @@ title: Speakers
 	<i class="material-icons-outlined">expand_more</i>
 </span>
 
-  <div class="img-squiggly">
+  <div class="img-squiggly" style="max-width: 120px;">
     <img src="{{person.foto}}">
   </div>
   <div>
     <div class="text-bold text-accent">{{person.nome}}</div>
-    <div class="text-smaller text-black">{{person.ruolo}}</div>
+    <div class="text-tiny text-black text-italic" style="margin-top: 0.1em;">{{person.ruolo}}</div>
+    <div class="text-bold text-smaller text-black" style="margin-top: 0.2em;">{{person.sessione}}</div>
   </div>
 </div>
 <div class="card-body" x-show="expanded" x-collapse>
@@ -30,9 +32,30 @@ title: Speakers
   {{person.descrizione}}
 </div>
   </div>
-
+  {% assign i = i | plus: 1 %}
   {% endif %}
   {% endfor %}
+
+  {% assign even = i | modulo: 2%}
+
+  {% if even %}
+    {% assign k = 2 %}
+    {% else %}
+    {% assign k = 3 %}
+    {% endif %}
+
+    {% for j in (1..k) %}
+<div class="card coming-soon" style="padding:1em;" x-data="{ expanded: false }" @click="expanded = ! expanded">
+
+	<div class="card-header flex-column items-center justify-content-center" style="height: 100%">
+<span style="text-align: center; color: white; font-weight: 700">COMING SOON</span>
+    </div>
+
+</div>
+
+    {% endfor %}
+
+</div>
 </div>
 
 </div>

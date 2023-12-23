@@ -335,6 +335,10 @@ a{
   font-weight: 800;
 }
 
+.text-italic{
+  font-style: italic;
+}
+
 .text-accent{
   color: $accent2;
 }
@@ -345,8 +349,13 @@ a{
 
 .text-smaller{
   font-size: 70%;
+  line-height: 130%;
 }
 
+.text-tiny{
+    font-size: 70%;
+    line-height: 120%;
+}
 
 .img-squiggly{
   max-width: 30%;
@@ -395,5 +404,24 @@ a{
 
     &:hover{
         opacity: 0.5;
+    }
+}
+
+.two-columns{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 700px));
+
+    // make every row the same height
+    grid-auto-rows:  1fr;
+
+    grid-gap: 1em;
+    margin-top: 5vh;
+    // align item horizontally at center;
+    justify-content: center;
+
+    // if screen it too small, make it one column
+    @media screen and (max-width: $large){
+        grid-template-columns: repeat(1, minmax(300px, 700px));
+        grid-gap: 0.5em;
     }
 }

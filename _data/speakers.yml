@@ -5,6 +5,7 @@
   mostra: false
   ruolo:
   foto: img/speakers/luca_parmitano.png
+  sessione:
 
 - nome: Paolo Gambino
   descrizione: |
@@ -12,6 +13,7 @@
   mostra: true
   ruolo: Full Professor at UniTo and Corresponding Fellow of the Academy of Sciences of Turin
   foto: img/speakers/paolo_gambino.png
+  sessione: Lecture di Fisica delle Particelle Elementari
 
 - nome: Antonaldo Diaferio
   descrizione: |
@@ -19,6 +21,7 @@
   mostra: true
   ruolo: Full Professor at UniTo and Corresponding Fellow of the Academy of Sciences of Turin
   foto: img/speakers/antonaldo_diaferio.png
+  sessione: Lecture di Epistemologia applicata alla Cosmologia
 
 - nome: Joachim Mnich
   descrizione: |
@@ -26,6 +29,8 @@
     È Director for Research and Computing presso il CERN dal 2021.
   mostra: false
   foto: img/speakers/joachim_mnich.png
+  ruolo:
+  sessione:
 
 - nome: Elisa Palazzi
   descrizione: |
@@ -33,6 +38,8 @@
   foto: img/speakers/elisa_palazzi.png
   ruolo: Climatologist and Associate Professor at UniTo
   mostra: true
+  sessione: Sessione Plenaria di Fisica del Clima
+
 
 - nome: Davide Gandolfi
   descrizione:  |
@@ -40,12 +47,14 @@
   foto: img/speakers/davide_gandolfi.png
   ruolo:
   mostra: false
+  sessione:
 
 - nome: Stefania Beolè
   descrizione: |
     Professoressa ordinaria presso l'Università di Torino, svolge attività di ricerca nell'ambito della fisica degli ioni pesanti relativistici e degli sviluppi di rivelatori dedicati a questo campo, in particolare rivelatori a pixel monolitici in silicio. Dal 1996 fa parte della collaborazione ALICE presso il CERN, di cui è stata responsabile locale e coordinatrice delle attività dei diversi laboratori coinvolti per il progetto di upgrade dell'Inner Tracking System (ITS).
   foto: img/speakers/stefania_beole.png
   ruolo: Full Professor at UniTo and Project Leader of the ALICE ITS
+  sessione: Sessione Plenaria di Fisica delle Particelle
   mostra: true
 
 - nome: Marco Panero
@@ -54,6 +63,7 @@
   foto: img/speakers/marco_panero.png
   mostra: true
   ruolo: Associate Professor at UniTo
+  sessione: Lecture di Fisica delle Particelle Elementari
 
 - nome: Matteo Brogi
   descrizione: |
@@ -61,3 +71,4 @@
   foto: img/speakers/matteo_brogi.png
   mostra: true
   ruolo: Associate Professor at UniTo
+  sessione: Sessione Plenaria di Astrofisica

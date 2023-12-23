@@ -118,3 +118,11 @@
 .text-larger{
     font-size: clamp(16pt, 2.8vw, 1.5rem);
 }
+
+
+.coming-soon{
+    // make background 50% opacity
+    background-color: rgba(255, 255, 255, 0.4);
+    //box-shadow: none;
+    border: 0.5px solid rgba(255,255,255,0.8);
+}

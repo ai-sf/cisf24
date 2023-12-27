@@ -418,6 +418,7 @@ a{
     margin-top: 5vh;
     // align item horizontally at center;
     justify-content: center;
+    justify-items: stretch;
 
     // if screen it too small, make it one column
     @media screen and (max-width: $large){

@@ -8,5 +8,7 @@
   link: "comitato_organizzatore"
 - text: Speakers
   link: speakers
+- text: Media Hosts
+  link: media_hosts
 - text: "Il logo"
   link: "logo"

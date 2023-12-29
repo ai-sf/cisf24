@@ -72,3 +72,11 @@
   mostra: true
   ruolo: Associate Professor at UniTo
   sessione: Sessione Plenaria di Astrofisica
+
+- nome: Filippo Valle
+  descrizione: |
+    PostDoc presso l'Università di Torino, è specializzato in algoritmi di machine learning e fisica statistica per lo studio di dati genomici. Durante il periodo di Dottorato si è occupato di teoria delle reti e data mining applicati all'analisi dei tumori. È attualmente Chief Technology Officer di "Elemento", una startup che si propone di creare una rete di cloud facilmente accessibile. Lavora inoltre allo sviluppo di un "hypervisor" di next-gen, denominato "AtomOS".
+  foto: img/speakers/filippo_valle.png
+  mostra: true
+  ruolo: Postdoctoral Researcher at UniTo
+  sessione: Sessione Plenaria di Fisica dei Sistemi Complessi

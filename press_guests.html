@@ -1,0 +1,51 @@
+---
+layout: default
+title: Press & Guests Area
+---
+<div class="container-smaller">
+<div class="card" style="padding: 1em  2em !important; margin: 0;">
+        <p style="margin: none;">{{site.data.press.descrizione}}</p>
+
+</div>
+
+
+<div style="margin-top: 7em;">
+
+{% for button in site.data.press.links %}
+<div style="display: flex; width: 100%; justify-content: center; ">
+	<a class="btn" href="{{button.link}}" target="_blank">{{button.titolo}}</a>
+
+</div>
+
+{% endfor %}
+
+</div>
+<div style="margin-top:7em;">
+
+    <h2 class="text-accent text-center" style="margin: 0; margin-bottom: 0.5em;" >Contatti</h2>
+    {% for contatto in site.data.press.contatti %}
+    <div class="text-center">
+        <div class="text-heavy text-white h3">{{contatto.nome}}</div>
+        <div class="text-bold text-white" style="margin-bottom: 0.5em;">{{contatto.ruolo}}</div>
+        <div class=" text-white" style="display: flex; justify-content: center;">
+        <i class="material-icons-outlined" style=" margin-right: 0.5em">call</i>
+
+	{{contatto.cellulare}}</div>
+
+<div class="text-white" style="display: flex; justify-content: center">
+<i class="material-icons-outlined" style=" margin-right: 0.5em">alternate_email</i>
+
+	{{contatto.email}}</div>
+
+
+    </div>
+
+    {% endfor %}
+</div>
+
+
+
+
+</div>
+
+

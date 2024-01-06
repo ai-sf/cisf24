@@ -43,11 +43,11 @@
 
 - nome: Davide Gandolfi
   descrizione:  |
-    Professore ordinario presso l’Università di Torino, è specializzato nello studio di Esopianeti.
+    Professore associato presso l’Università di Torino, è specializzato nello studio di esopianeti. Fino al 2014 ha partecipato alla missione CoRoT dell'ESA. Tra i diversi premi ricevuti, è stato Ricercatore Rita Levi Montalcini presso l'Università di Torino tra il 2014 e il 2017. Attualmente è membro della missione CHEOPS dell'ESA, un telescopio spaziale progettato per lo studio di pianeti extrasolari. È inoltre membro di KESPRINT, un consorzio internazionale formato da studiosi di esopianeti.
   foto: img/speakers/davide_gandolfi.png
-  ruolo:
-  mostra: false
-  sessione:
+  ruolo: Associate Professor at UniTo
+  mostra: true
+  sessione: Sessione Plenaria di Astrofisica
 
 - nome: Stefania Beolè
   descrizione: |

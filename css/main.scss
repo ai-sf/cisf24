@@ -11,6 +11,7 @@ $small: 600px;
 
 @import '_navbar.scss';
 @import '_cards.scss';
+@import '_popup.scss';
 
 body,html{
   height: 100%;
@@ -275,16 +276,25 @@ p{
   color: white;
   border: none;
   display: flex;
+
   @extend h3;
+
+
   border-radius: 0.3em;
   justify-content: center;
-
+    align-items: center;
   padding: .75rem 1.65rem;
   position: relative;
   text-align: center;
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 
-  position: relative;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    &.btn-small {
+            @extend h4;
+            font-family: 'Poppins';
+            font-weight: 700;
+            padding: .2rem 1rem;
+        }
+    position: relative;
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
@@ -292,17 +302,38 @@ p{
   transition: all 0.3s ease;
   text-decoration: none !important;
 
+  &.btn-outline{
+    color: $accent2;
+    border: 3px solid $accent2;
+    background-color: transparent;
+  }
+
 }
 
 .btn:hover {
   outline: 0;
+
+  &:not(.btn-outline){
+
       box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.5) 0px 40px 80px -10px, rgba(0, 0, 0, 0.4) 0px 20px 50px -20px;
+  }
+  &.btn-outline{
+    background-color: $accent2;
+    color: white;
+  }
 }
 
 .btn:active{
-  background-color: color-mix(in hsl, $accent2 85%, black);
+    background-color: color-mix(in hsl, $accent2 85%, black);
+    &:not(.btn-outline) {
         box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.5) 0px 40px 80px -10px, rgba(0, 0, 0, 0.4) 0px 10px 10px -10px;
+
 }
+&.btn-outline {
+color: white;}
+}
+
+
 
 
 #quandodovechi{
@@ -429,5 +460,54 @@ a{
         grid-template-columns: repeat(1, minmax(300px, 700px));
         grid-gap: 0.5em;
         grid-auto-rows: auto;
+    }
+}
+
+
+
+
+
+a.animate:hover {
+    color: $accent2;
+}
+
+a.animate {
+    color: $accent;
+    text-align: right;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding-bottom: 5px;
+    @extend .h4;
+    background-image: linear-gradient($accent, $accent2);
+    line-height: 120%;
+    background-size: 0% 3px;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-size: 100% 3px;
+    }
+
+}
+
+
+.chip-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 0.3em;
+    column-gap: 0.5em;
+
+    .chip {
+    border-radius: 99999999px;
+        white-space: nowrap;
+        background-color: $accent;
+        padding: 0.35em 1em;
+        color: white;
+
     }
 }

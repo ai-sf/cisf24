@@ -1,0 +1,73 @@
+- nome: Dipartimento di Fisica - UniTo
+  foto: img/laboratori/dip.png
+  nickname: dipfis
+  descrizione: |
+    Il Dipartimento di Fisica dell'Università di Torino riveste un ruolo di primaria importanza nell'ambito delle Scienze Fisiche, fungendo da polo per lo sviluppo della ricerca scientifica fondamentale e delle relative applicazioni tecnologiche. La sua missione spazia dalla conduzione di ricerche avanzate alla divulgazione culturale, coinvolgendo sia gli studenti iscritti ai corsi di laurea sia il pubblico in generale. Il Dipartimento promuove e coordina attivamente progetti di ricerca in collaborazione con istituzioni nazionali ed estere, stabilendo consolidati legami con enti di rilievo come l'Istituto Nazionale di Fisica Nucleare (INFN), il Consiglio Nazionale delle Ricerche (CNR), l'Istituto Nazionale di Astrofisica (INAF), l'Istituto Nazionale di Ricerca Metrologica (INRiM) e l'Agenzia Spaziale Italiana (ASI). A livello internazionale, collabora con il Consiglio Europeo per la Ricerca Nucleare (CERN), il Centre National de la Recherche Scientifique (CNRS), gli Max-Planck Institutes, l'International Atomic Energy Agency (IAEA) e la National Aeronautics and Space Administration (NASA).
+    Il Dipartimento, insignito del titolo di Dipartimento di Eccellenza per il periodo 2018-2022, si distingue per una vasta gamma di tematiche di ricerca, che spaziano dalla fisica delle interazioni fondamentali, all'astrofisica e fisica astro-particellare, alla fisica dei sistemi complessi, all'ambiente, alla geofisica, alla fisica dei fluidi, alla fisica medica, alla fisica dello stato solido, alla fisica per i Beni culturali, all'ottometria e alla didattica della fisica.
+    L'attività didattica del Dipartimento abbraccia corsi di laurea di primo e secondo livello in Fisica, Ottica e Optometria, e Fisica dei Sistemi Complessi. I docenti del Dipartimento sono coinvolti nella formazione a vari livelli, inclusi corsi di studio di altri dipartimenti dell'Ateneo e corsi di dottorato in Fisica, Complex Systems for Quantitative Biomedicine, Modeling and Data Science, Scienze Chimiche e dei Materiali, e Technologies for Cultural Heritage. La Scuola di Specializzazione in Fisica Medica, gestita dal Dipartimento, contribuisce alla formazione di professionisti specializzati.
+    L'impegno del Dipartimento si estende anche alla Terza Missione, con iniziative di Public Engagement e Trasferimento Tecnologico. Il Museo di Fisica, sotto la sua gestione, svolge un ruolo chiave nella valorizzazione del patrimonio culturale e scientifico legato alla fisica. In sintesi, il Dipartimento di Fisica dell'Università di Torino si presenta come un centro di eccellenza impegnato nella ricerca avanzata, nell'insegnamento di qualità e nella promozione della cultura scientifica a livello locale e internazionale.
+  sito: https://www.df.unito.it/do/home.pl
+  visite:
+    - Impiantatore Ionico
+    - Bunker di Fisica Medica
+    - Stazione meteorologica
+    - Laboratorio di raggi cosmici
+    - Museo di Fisica
+    - Bunker Fisica dei Beni Culturali
+
+- nome: Osservatorio Astrofisico di Torino - INAF
+  foto: img/laboratori/OATo.jpg
+  nickname: inaf
+  descrizione: |
+    L'Osservatorio Astrofisico di Torino, fondato nel 1759, è una prestigiosa istituzione dedicata allo studio dell'Universo e delle sue meraviglie celesti. È parte integrante del Dipartimento di Fisica dell'Università di Torino, contribuendo significativamente alla ricerca astrofisica e alle attività didattiche.
+    L'Osservatorio Astrofisico di Torino si distingue per la sua partecipazione attiva a progetti di ricerca a livello nazionale e internazionale, collaborando con altre istituzioni scientifiche e centri di ricerca. Le sue attività di ricerca spaziano dalla cosmologia all'astrofisica stellare, dall'esplorazione di oggetti del sistema solare allo studio dei fenomeni di radiazione elettromagnetica provenienti da regioni remote dell'Universo.
+    L'osservatorio è dotato di strumentazioni all'avanguardia, come telescopi ottici e radioastronomici, che consentono agli scienziati di esplorare il cielo con precisione e acquisire dati di alta qualità. Inoltre, l'Osservatorio svolge un ruolo fondamentale nell'istruzione e nella formazione di giovani astronomi e studenti, offrendo programmi educativi e collaborando con le università per promuovere la ricerca nel campo dell'astrofisica.
+    Oltre alla sua missione scientifica, l'Osservatorio Astrofisico di Torino è coinvolto in iniziative di divulgazione scientifica e pubblica, organizzando eventi, conferenze e osservazioni notturne per avvicinare il pubblico alla bellezza e alla complessità dell'Universo. Il sito, arricchito da un museo astronomico e percorsi didattici, mira a stimolare l'interesse per l'astronomia e a diffondere la conoscenza scientifica presso tutte le fasce della società.
+  sito: https://www.oato.inaf.it
+  visite:
+    - Telescopio ZEISS
+    - Astrografo REOSC
+    - Telescopio rifrattore MORAIS
+    - Uffici e Villa OATo
+    - Osservazioni solari
+
+- nome: Istituto Nazionale di Fisica Nucleare (INFN)
+  foto: img/laboratori/INFN.jpg
+  nickname: infn
+  descrizione: |
+    L'Istituto Nazionale di Fisica Nucleare (INFN), Sezione di Torino, è un'eccellenza nel panorama della ricerca scientifica in Italia. Fondata nel 1951, la sezione torinese è un centro di riferimento per lo studio della fisica delle particelle e delle interazioni nucleari. La struttura collabora attivamente con il Dipartimento di Fisica dell'Università di Torino e con altri istituti di ricerca nazionali e internazionali.
+    L'INFN di Torino è coinvolto in progetti di ricerca di portata globale, contribuendo al progresso della fisica delle alte energie e alla comprensione delle leggi fondamentali dell'universo. Gli scienziati dell'INFN di Torino partecipano attivamente a esperimenti presso importanti laboratori internazionali, come il CERN in Svizzera, contribuendo alla scoperta e all'analisi di nuove particelle e fenomeni fisici.
+    La sezione di Torino gioca un ruolo chiave nella formazione di giovani ricercatori attraverso programmi di dottorato e attività didattiche avanzate. Inoltre, promuove la collaborazione tra la comunità scientifica, l'industria e il pubblico, organizzando conferenze, seminari e eventi divulgativi per condividere i risultati della ricerca e accrescere la consapevolezza sulla fisica delle particelle.
+    L'INFN di Torino è parte integrante della rete INFN, sostenendo l'innovazione tecnologica e partecipando a progetti internazionali che spaziano dalla ricerca di base all'applicazione di nuove tecnologie. Con un impegno continuo nella ricerca avanzata, nella formazione e nella divulgazione scientifica, l'INFN di Torino contribuisce in modo significativo allo sviluppo della fisica delle particelle e alla crescita della conoscenza scientifica a livello nazionale e internazionale.
+  sito: https://www.to.infn.it
+  visite:
+    - Laboratorio di microelettronica.
+    - Laboratorio tecnologico.
+    - Centro di calcolo.
+
+- nome: Istituto Nazionale di Ricerca Metrologica (INRiM)
+  foto: img/laboratori/INRiM.PNG
+  nickname: inrim
+  descrizione: |
+    L'Istituto Nazionale di Ricerca Metrologica (INRiM) a Torino è un'eccellenza nel campo della metrologia, dedicato allo sviluppo di avanzati campioni e metodi di misura. In qualità di istituto metrologico primario ai sensi della legge 11 agosto 1991, n. 273, l'INRiM svolge un ruolo cruciale nel garantire la riferibilità e il valore legale delle misure in settori chiave come industria, commercio, ricerca scientifica, tutela della salute, ambiente e giustizia. L'istituto, firmatario di accordi internazionali sulla metrologia, è delegato dalle Istituzioni competenti per realizzare e mantenere i campioni nazionali per le unità di misura.
+    L'INRiM assume una prospettiva globale, contribuendo attivamente alla comunità internazionale della metrologia e collaborando con istituti di ricerca di altri paesi. Oltre al suo ruolo primario nell'assicurare la precisione e la coerenza delle misure, l'INRiM ha una missione più ampia. Valorizza, diffonde e trasferisce conoscenze e risultati nella scienza delle misure e nella ricerca sui materiali, con l'obiettivo di favorire lo sviluppo tecnologico nazionale e migliorare la qualità della vita e dei servizi per i cittadini.
+    L'istituto si distingue per la sua capacità di tradurre gli elevati standard della ricerca metrologica in applicazioni pratiche di interesse.
+  sito: https://www.inrim.it/it
+  inglese: true
+  visite:
+    - Applied metrology and engineering.
+    - Metrology of innovative materials and life sciences.
+    - Quantum metrology and nanotechnologies.
+
+
+- nome: INFINI.TO
+  nickname: infinito
+  foto: img/laboratori/INFINITO.jpg
+  descrizione: |
+    Il Museo di Astronomia di Torino offre un'esperienza avvincente distribuita su 4 piani, di cui 3 interrati. Il planetario, accessibile dal piano -2, presenta una struttura esterna a forma di sfera che raffigura una stella supergigante rossa, visibile da ogni angolo del museo. La biglietteria, inizialmente raggiungibile tramite un ascensore inclinato, è ora sostituita da un servizio di navetta gratuito a causa di una frana che ne ha reso inagibile l'originale percorso.
+    Il piano 0 ospita riproduzioni di satelliti, tra cui il Tethered e il LAGEOS 2. Al piano -1, si trovano esposizioni sulla visione dell'universo, lo spettro elettromagnetico e la velocità della luce. Il piano -2 offre l'accesso alla cupola del planetario e presenta allestimenti sulle forze della natura, con simulazioni di gravità lunare e vortici gravitazionali. Tra le attrazioni, una giostra illustra gli effetti del momento angolare, mentre una cyclette permette ai visitatori di pedalare attraverso il sistema solare a velocità della luce.
+    Il piano -3 espone la struttura a grande scala dell'Universo, la sua storia e il futuro, con temi come la legge di Hubble e la radiazione cosmica di fondo. Una cyclette consente di "viaggiare" nello spazio, mentre postazioni con PC e la Mediateca offrono filmati sull'universo e la sua esplorazione. Il planetario interno al museo, con 98 posti, utilizza il sistema digitale d'avanguardia DIGISTAR 5. Le proiezioni, registrate o presentate dal vivo, sono separate dal biglietto del museo. Il Planetario di Torino collabora attivamente con altre istituzioni astronomiche piemontesi, tra cui l'Osservatorio Astronomico di Luserna San Giovanni e quello di Alpette, per attività di divulgazione e lo scambio di immagini, contribuendo così all'arricchimento dell'esperienza astronomica nella regione.
+  sito: https://www.planetarioditorino.it/
+  visite:
+    - Planetario digitale.
+    - Museo interattivo di Astronomia.

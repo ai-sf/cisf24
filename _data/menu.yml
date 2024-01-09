@@ -7,6 +7,9 @@
 - text: "Iscriviti"
   link: "iscrizione"
   icon: person_add
+- text: "Laboratori"
+  link: "laboratori"
+  icon: experiment
 - text: "Comitato Organizzatore"
   link: "comitato_organizzatore"
   icon: diversity_3

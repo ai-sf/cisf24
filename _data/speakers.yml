@@ -43,11 +43,11 @@
 
 - nome: Davide Gandolfi
   descrizione:  |
-    Professore ordinario presso l’Università di Torino, è specializzato nello studio di Esopianeti.
+    Professore associato presso l’Università di Torino, è specializzato nello studio di esopianeti. Fino al 2014 ha partecipato alla missione CoRoT dell'ESA. Tra i diversi premi ricevuti, è stato Ricercatore Rita Levi Montalcini presso l'Università di Torino tra il 2014 e il 2017. Attualmente è membro della missione CHEOPS dell'ESA, un telescopio spaziale progettato per lo studio di pianeti extrasolari. È inoltre membro di KESPRINT, un consorzio internazionale formato da studiosi di esopianeti.
   foto: img/speakers/davide_gandolfi.png
-  ruolo:
-  mostra: false
-  sessione:
+  ruolo: Associate Professor at UniTo
+  mostra: true
+  sessione: Sessione Plenaria di Astrofisica
 
 - nome: Stefania Beolè
   descrizione: |
@@ -72,3 +72,19 @@
   mostra: true
   ruolo: Associate Professor at UniTo
   sessione: Sessione Plenaria di Astrofisica
+
+- nome: Filippo Valle
+  descrizione: |
+    PostDoc presso l'Università di Torino, è specializzato in algoritmi di machine learning e fisica statistica per lo studio di dati genomici. Durante il periodo di Dottorato si è occupato di teoria delle reti e data mining applicati all'analisi dei tumori. È attualmente Chief Technology Officer di "Elemento", una startup che si propone di creare una rete di cloud facilmente accessibile. Lavora inoltre allo sviluppo di un "hypervisor" di next-gen, denominato "AtomOS".
+  foto: img/speakers/filippo_valle.png
+  mostra: true
+  ruolo: Postdoctoral Researcher at UniTo
+  sessione: Sessione Plenaria di Fisica dei Sistemi Complessi
+
+- nome: Gianluca Dotti
+  descrizione: |
+    Laureato in Fisica della materia e applicata, ha conseguito un Master in Giornalismo Scientifico Digitale alla SISSA di Trieste e uno in Giornalismo e Comunicazione Istituzionale della Scienza all'Università di Ferrara. Attualmente è giornalista pubblicista iscritto all'Albo dei Giornalisti dell'Emilia Romagna. Ha collaborato con Wired Italia, Mediaset, Business Insider Italia, Forbes Italia e altri. È impegnato in progetti di formazione informatica e comunicazione digitale con Civibox di Modena e Tecnoscienza di Bologna. Tiene numerosi incontri nelle scuole e partecipa a eventi pubblici, conferenze e talk show.
+  foto: img/speakers/gianluca_dotti.png
+  mostra: true
+  ruolo: Science Journalist
+  sessione: Sessione Plenaria di Fisica delle Tecnologie Avanzate

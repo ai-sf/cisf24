@@ -3,32 +3,31 @@ layout: default
 title: Comitato Organizzatore
 ---
 <div class="container">
-  <div class="rows-or-columns">
+    <div class="rows-or-columns">
 
-  {% for person in site.data.comitato_organizzatore %}
-<div class="card" style="padding:1em;width: clamp(300px, 95%, 500px)" x-data="{ expanded: false }" @click="expanded = ! expanded">
-
-
-<div class="card-header flex-row items-center">
-<span class="more" :class="expanded ? 'rotated' : ''">
-	<i class="material-symbols-rounded">expand_more</i>
-</span>
-
-  <div class="img-squiggly">
-    <img src="{{person.photo}}">
-  </div>
-  <div>
-    <div class="text-bold text-accent">{{person.name}}</div>
-    <div class="text-smaller text-black">{{person.role}}</div>
-  </div>
-</div>
-<div class="card-body" x-show="expanded" x-collapse>
+        {% for person in site.data.comitato_organizzatore %}
+        <div class="card" style="padding:1em;width: clamp(300px, 95%, 500px)" x-data="{ expanded: false }">
 
 
-  {{person.description}}
-</div>
-  </div>
-  {% endfor %}
-</div>
+            <div class="card-header flex-row items-center" @click="expanded = ! expanded">
+
+                <span class="more" :class="expanded ? 'rotated' : ''">
+                    <i class="material-symbols-rounded">expand_more</i>
+                </span>
+
+                <div class="img-squiggly">
+                    <img src="{{person.photo}}">
+                </div>
+                <div>
+                    <div class="text-bold text-accent">{{person.name}}</div>
+                    <div class="text-smaller text-black">{{person.role}}</div>
+                </div>
+            </div>
+            <div class="card-body" x-show="expanded" x-collapse>
+                {{person.description}}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
 
 </div>

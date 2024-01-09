@@ -4,6 +4,8 @@
   link: "programma"
 - text: "Iscriviti"
   link: "iscrizione"
+- text: "Laboratori"
+  link: "laboratori"
 - text: "Comitato Organizzatore"
   link: "comitato_organizzatore"
 - text: Speakers

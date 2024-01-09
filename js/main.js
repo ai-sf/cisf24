@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Assuming there is only one element with the class "popup-trigger"
-    console.log("culo");
     var triggers =  document.querySelectorAll(".popup-trigger");
 
 

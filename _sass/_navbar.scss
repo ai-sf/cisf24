@@ -96,14 +96,22 @@ div.nav-menu {
     color: $accent2;
      }
 
+  li a i.material-symbols-rounded{
+    margin-left: 0.5em;
+  }
   li a {
+    div{
+
+        @extend h3;
+        text-align: right;
+    }
     color: $accent;
-    text-align: right;
     text-decoration: none;
     transition: all 0.3s ease;
     padding-bottom: 5px;
-
-    @extend h3;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row-reverse;
 
     background-image: linear-gradient($accent, $accent2);
       line-height: 120%;

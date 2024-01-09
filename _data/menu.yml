@@ -1,16 +1,24 @@
 - text: "Home"
   link: ""
+  icon: home
 - text: "Programma"
   link: "programma"
+  icon: acute
 - text: "Iscriviti"
   link: "iscrizione"
+  icon: person_add
 - text: "Comitato Organizzatore"
   link: "comitato_organizzatore"
+  icon: diversity_3
 - text: Speakers
   link: speakers
+  icon: podium
 - text: Media Hosts
   link: media_hosts
+  icon: podcasts
 - text: "Il logo"
   link: "logo"
+  icon: draw_collage
 - text: Press & Guests Area
   link: "press_guests"
+  icon: newspaper

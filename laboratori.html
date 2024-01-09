@@ -7,10 +7,10 @@ title: Laboratori
 <div class="container-smaller">
     <div class="two-columns">
 {% for lab in site.data.laboratori %}
-		<div class="card flex-column" style="align-items:stretch; justify-content: center; padding:1em;" x-data="{ expanded: false }" @click="expanded = ! expanded">
+		<div class="card flex-column" style="align-items:stretch; justify-content: space-between; padding:1em;" x-data="{ expanded: false }" @click="expanded = ! expanded">
 
 
-			<div class="card-header flex-column" style="gap: 0.2em; align-items: center; justify-content: flex-start;">
+			<div class="card-header flex-column" style="gap: 0.2em; align-items: center; text-align:center; justify-content: flex-start;">
 
 				<div class="img-full">
 					<img src="{{lab.foto}}">
@@ -19,9 +19,9 @@ title: Laboratori
 					<div class="text-bold text-accent">{{lab.nome}}</div>
 				</div>
 			</div>
-            <div class="card-body">
+            <div class="card-body" style="flex: 0">
                 <div class="flex flex-column align-items-center justify-content-center" style="">
-                    <a data-target="#{{lab.nickname}}" style="width:fit-content"class="btn btn-small btn-outline popup-trigger" :click="isOpen = true;"><i class="material-icons-outlined" style="margin-right: 0.5em;">more_horiz</i>  Informazioni</a>
+                    <a data-target="#{{lab.nickname}}" style="width:fit-content"class="btn btn-small btn-outline popup-trigger" :click="isOpen = true;"><i class="material-symbols-rounded" style="margin-right: 0.5em;">more_horiz</i>  Informazioni</a>
                 </div>
 
             </div>
@@ -45,7 +45,7 @@ title: Laboratori
             </div>
             <div>
                 <div>{{lab.nome}}</div>
-                <a class="animate" href="{{lab.sito}}" style="display:inline-flex; flex-direction: row; align-items: center;"><i class="material-icons-outlined" style="margin-right: 0.2em;">link</i>Sito Web</a>
+                <a class="animate" href="{{lab.sito}}" style="display:inline-flex; flex-direction: row; align-items: center;"><i class="material-symbols-rounded" style="margin-right: 0.2em;">link</i>Sito Web</a>
             </div>
 
 		</div>

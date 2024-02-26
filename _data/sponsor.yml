@@ -1,0 +1,86 @@
+- section: "Organizzata da"
+  columns: 6
+  rows: 2
+  list:
+    - nome: "AISF Torino"
+      logo: "img/aisf_torino.png"
+    - nome: "AISF"
+      logo: "img/ai-sf.png"
+      reduce: 1.2
+    - nome: "IAPS"
+      logo: "img/sponsor/iaps.png"
+- section: "Con il supporto di"
+  columns: 6
+  rows: 2
+  list:
+    - nome: "Dipartimento di Fisica - UniTo"
+      logo: "img/sponsor/UniTo_Fisica.png"
+    - nome: "INFN"
+      logo: "img/sponsor/INFN.png"
+    - nome: "INRiM"
+      logo: "img/sponsor/inrim.jpg"
+      reduce: 1.5
+
+- section: "Sponsor"
+  columns: 2
+  rows: 1
+  list:
+    - nome: "ITT"
+      logo: "img/sponsor/itt.png"
+      reduce: 0
+
+- section: "In collaborazione con"
+  columns: 5
+  rows: 2
+  list:
+    - nome: "Accademia delle Scienze di Torino"
+      logo: "img/sponsor/accademia_scienze_torino.png"
+    - nome: Osservatorio Astrofisico di Torino
+      logo: "img/sponsor/oato.png"
+      reduce: 1
+    - nome: CentroScienza
+      logo: "img/sponsor/CentroScienza.png"
+      reduce: 1
+    - nome: "Politecnico di Torino"
+      logo: "img/sponsor/politecnico_torino.png"
+      reduce: 0.5
+      span: 2
+    - nome: "Planetario di Torino"
+      logo: "img/sponsor/infinito.png"
+      reduce: 1
+    - nome: "Al Cicapui"
+      logo: "img/sponsor/cicapui.jpg"
+      reduce: 0.3
+
+- section: "Con il patrocinio di"
+  columns: 5
+  rows: 2
+  list:
+    - nome: "Università di Torino"
+      logo: "img/sponsor/unito.png"
+      reduce: 1
+    - nome: "Città di Torino"
+      logo: "img/sponsor/citta_torino.png"
+    - nome: "Città Metropolitana di Torino"
+      logo: "img/sponsor/citta_metropolitana.png"
+      reduce: 1
+    - nome: ENEA
+      logo: "img/sponsor/enea.png"
+      reduce: 1
+    - nome: "Regione Piemonte"
+      logo: "img/sponsor/regione.png"
+      reduce: 1.5
+    - nome: "Società Italiana di Fisica"
+      logo: "img/sponsor/sif.jpg"
+      reduce: 0
+    - nome: "INAF"
+      logo: "img/sponsor/inaf.png"
+      reduce: 0.5
+
+- section: "Media Partner"
+  columns: 2
+  rows: 1
+  list:
+    - nome: "Chi Cubo"
+      logo: "img/sponsor/chicubo.png"
+      reduce: 1

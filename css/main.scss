@@ -23,234 +23,258 @@ $small: 600px;
 }
 
 
-body,html{
-  height: 100%;
-  border: 0;
-  padding: 0;
-  margin: 0;
-  position: relative;
-  transition: all 0.3s ease;
-  background-color: white;
-  overflow-x: hidden;
+body,
+html {
+    height: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    transition: all 0.3s ease;
+    background-color: white;
+    overflow-x: hidden;
 
 }
 
-*{
-  font-family: 'Poppins';
+* {
+    font-family: 'Poppins';
 }
 
-.fullscreen{
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  border: 0;
-  margin: 0;
-  padding: 0;
+.fullscreen {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
 
 }
 
 
 .fixed-fullscreen {
-  position: sticky;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border: 0;
-  margin: 0;
-  width: 100%;
-  height: 100vh;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
 
-  padding: 0;
+    padding: 0;
 
 }
 
 
-.flex{
-  display: flex;
+.flex {
+    display: flex;
 }
 
-.flex-column{
+.flex-column {
     display: flex !important;
-  flex-direction: column !important;
+    flex-direction: column !important;
 }
 
 
-.flex-column-or-row{
-  display: flex;
-  flex-direction: column;
-  @media screen and (min-width: $large){
-    flex-direction: row;
-  }
+.flex-column-or-row {
+    display: flex;
+    flex-direction: column;
 
-  &.reverse-on-small{
-    @media screen and (max-width: $large){
-      flex-direction: column-reverse;
+    @media screen and (min-width: $large) {
+        flex-direction: row;
     }
 
-  }
+    &.reverse-on-small {
+        @media screen and (max-width: $large) {
+            flex-direction: column-reverse;
+        }
+
+    }
 }
 
-.justify-content-center{
-  justify-content: center !important;
+.justify-content-center {
+    justify-content: center !important;
 }
 
-.align-items-center{
-  align-items: center !important;
+.align-items-center {
+    align-items: center !important;
 }
 
-.justify-content-start{
+.justify-content-start {
     justify-content: flex-start;
 }
 
 
-#cisf-logo{
-  max-width: 100%;
-  width: 1000px;
+#cisf-logo {
+    max-width: 100%;
+    width: 1000px;
 }
 
 
-.text-white{
-  color: white;
+.text-white {
+    color: white;
 }
 
-h1, h2, h3, h4, h5, h6{
-  font-family: 'Archivo Black';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Archivo Black';
 }
 
 
 
-h1, .h1{
-  font-size: clamp(24pt, 8vw, 5rem);
+h1,
+.h1 {
+    font-size: clamp(24pt, 8vw, 5rem);
 }
 
-h2, .h2{
-  font-size: clamp(20pt, 4vw, 3rem);
+h2,
+.h2 {
+    font-size: clamp(20pt, 4vw, 3rem);
 }
 
-h3, .h3{
-  font-size: clamp(16pt, 3vw, 1.5rem);
+h3,
+.h3 {
+    font-size: clamp(16pt, 3vw, 1.5rem);
 }
 
-h4, .h4 {
-  font-size: clamp(14pt, 2.5vw, 1rem);
+h4,
+.h4 {
+    font-size: clamp(14pt, 2.5vw, 1rem);
 }
 
-.text-shadow{
-  text-shadow: 10px 10px 30px rgba(0,0,0,0.25);
+.text-shadow {
+    text-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
 }
 
 
 
 
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
+    0% {
+        opacity: 0;
+    }
 
-  100% {
-    opacity: 1;
-  }
+    100% {
+        opacity: 1;
+    }
 }
 
 
 @keyframes fadeInTranslate2 {
-  0% {
-    transform: translateY(100px);
-    opacity: 0;
-  }
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
 
-  65%{
-    transform: translateY(50px);
-    opacity: 0;
-  }
+    65% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
 
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 
 
 @keyframes fadeInTranslate1 {
-  0% {
-    transform: translateY(100px);
-    opacity: 0;
-  }
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
 
-  60% {
-    transform: translateY(50px);
-    opacity: 0;
-  }
+    60% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
 
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: scale(3);
-  }
-
-  20%{
-    opacity:0;
+    0% {
+        opacity: 0;
         transform: scale(3);
-  }
+    }
 
-  50%{
-    opacity: 0;
-  }
+    20% {
+        opacity: 0;
+        transform: scale(3);
+    }
 
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 
-.page-title{
-  color: white;
-  width: 100%;
-  text-align: center;
-   z-index: 999;
-   @media screen and (max-width: $large){
-    margin-top: 3em;
-   }
-  h1{
-    margin: 0px !important;
-    padding: 0;
-  }
-}
-
-
-.container{
-  @media screen and (min-width: $large) {
+.page-title {
+    color: white;
     width: 100%;
-    margin: auto;
-  }
+    text-align: center;
+    z-index: 999;
+
+    @media screen and (max-width: $large) {
+        margin-top: 3em;
+    }
+
+    h1 {
+        margin: 0px !important;
+        padding: 0;
+    }
 }
 
-.container-smaller{
-  width: 95%;
-  margin: auto;
+
+.container {
+    @media screen and (min-width: $large) {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+
+.container-smaller {
+    width: 95%;
+    margin: auto;
+
     @media screen and (min-width: $large) {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
-      }
+    }
 
-  margin-top: 3em;
-  margin-bottom: 3em;
-  .card{
-      padding: 2em;
-  }
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    .card {
+        padding: 2em;
+    }
 }
 
+
+.container-auto {
+    @extend .container-smaller;
+        @media screen and (min-width: $large) {
+                width: fit-content;
+            }
+}
 
 .container-tiny {
     width: 95%;
@@ -270,8 +294,8 @@ h4, .h4 {
     }
 }
 
-p{
-  font-size: clamp(14pt, 2.5vw, 1rem);
+p {
+    font-size: clamp(14pt, 2.5vw, 1rem);
 }
 
 
@@ -281,183 +305,195 @@ p{
 
 
 .btn {
-  background-color: $accent2;
-  box-sizing: border-box;
-  color: white;
-  border: none;
-  display: flex;
+    background-color: $accent2;
+    box-sizing: border-box;
+    color: white;
+    border: none;
+    display: flex;
 
-  @extend h3;
+    @extend h3;
 
 
-  border-radius: 0.3em;
-  justify-content: center;
+    border-radius: 0.3em;
+    justify-content: center;
     align-items: center;
-  padding: .75rem 1.65rem;
-  position: relative;
-  text-align: center;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
 
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    &.btn-small {
-            @extend h4;
-            font-family: 'Poppins';
-            font-weight: 700;
-            padding: .2rem 1rem;
-        }
-    position: relative;
-  cursor: pointer;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  transition: all 0.3s ease;
-  text-decoration: none !important;
 
-  &.btn-outline{
-    color: $accent2;
-    border: 3px solid $accent2;
-    background-color: transparent;
-  }
+    &.btn-small {
+        @extend h4;
+        font-family: 'Poppins';
+        font-weight: 700;
+        padding: .2rem 1rem;
+    }
+
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: all 0.3s ease;
+    text-decoration: none !important;
+
+    &.btn-outline {
+        color: $accent2;
+        border: 3px solid $accent2;
+        background-color: transparent;
+    }
 
 }
 
 .btn:hover {
-  outline: 0;
+    outline: 0;
 
-  &:not(.btn-outline){
+    &:not(.btn-outline) {
 
-      box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.5) 0px 40px 80px -10px, rgba(0, 0, 0, 0.4) 0px 20px 50px -20px;
-  }
-  &.btn-outline{
-    background-color: $accent2;
-    color: white;
-  }
+        box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.5) 0px 40px 80px -10px, rgba(0, 0, 0, 0.4) 0px 20px 50px -20px;
+    }
+
+    &.btn-outline {
+        background-color: $accent2;
+        color: white;
+    }
 }
 
-.btn:active{
+.btn:active {
     background-color: color-mix(in hsl, $accent2 85%, black);
+
     &:not(.btn-outline) {
         box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.5) 0px 40px 80px -10px, rgba(0, 0, 0, 0.4) 0px 10px 10px -10px;
 
-}
-&.btn-outline {
-color: white;}
-}
+    }
 
-
-
-
-#quandodovechi{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  margin-top: -10vh;
+    &.btn-outline {
+        color: white;
+    }
 }
 
 
-.spacer{
-  @media screen and (min-width: $large) {
-  height: 7em;
-  }
+
+
+#quandodovechi {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    margin-top: -10vh;
 }
 
 
-a{
-  text-decoration: none;
-  color: black;
+.spacer {
+    @media screen and (min-width: $large) {
+        height: 7em;
+    }
 }
 
-.flex-row{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 
 }
 
-.text-bold{
-  font-weight: 800;
+.text-bold {
+    font-weight: 800;
 }
 
-.text-heavy{
+.text-heavy {
     font-weight: 900;
 }
 
-.text-italic{
-  font-style: italic;
+.text-italic {
+    font-style: italic;
 }
 
-.text-accent{
-  color: $accent2;
+.text-accent {
+    color: $accent2;
 }
 
-.text-black{
-  color: black;
+.text-black {
+    color: black;
 }
 
-.text-smaller{
-  font-size: 70%;
-  line-height: 130%;
+.text-smaller {
+    font-size: 70%;
+    line-height: 130%;
 }
 
-.text-tiny{
+.text-tiny {
     font-size: 70%;
     line-height: 120%;
 }
 
-.img-squiggly{
-  max-width: 30%;
-  img{
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-  }
+.img-squiggly {
+    max-width: 30%;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
 }
 
 
-.items-center{
+.items-center {
     align-items: center !important;
 }
 
 
-.rows-or-columns{
-  margin: auto;
-  margin-top: 5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  @media screen and(min-width:$large){
-    width: 80%;
-    flex-wrap: wrap;
-    & > div{
-      width: 25%;
+.rows-or-columns {
+    margin: auto;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and(min-width:$large) {
+        width: 80%;
+        flex-wrap: wrap;
+
+        &>div {
+            width: 25%;
+        }
     }
-  }
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 
-
-.shadow{
+.shadow {
     box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.5) 0px 40px 80px -10px, rgba(0, 0, 0, 0.4) 0px 20px 50px -20px;
 }
 
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.overlay-opacity{
+.overlay-opacity {
     opacity: 1;
     transition: opacity 0.3s ease;
 
-    &:hover{
+    &:hover {
         opacity: 0.5;
     }
 }
 
-.two-columns{
+.two-columns {
     display: grid;
     grid-template-columns: repeat(2, minmax(300px, 700px));
 
     // make every row the same height
-    grid-auto-rows:  1fr;
+    grid-auto-rows: 1fr;
 
     grid-gap: 1em;
     margin-top: 5vh;
@@ -466,7 +502,7 @@ a{
     justify-items: stretch;
 
     // if screen it too small, make it one column
-    @media screen and (max-width: $large){
+    @media screen and (max-width: $large) {
         grid-template-columns: repeat(1, minmax(300px, 700px));
         grid-gap: 0.5em;
         grid-auto-rows: auto;
@@ -506,7 +542,7 @@ a.animate {
 
 
 
-.chip-container{
+.chip-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -514,11 +550,78 @@ a.animate {
     column-gap: 0.5em;
 
     .chip {
-    border-radius: 99999999px;
+        border-radius: 99999999px;
         white-space: nowrap;
         background-color: $accent;
         padding: 0.35em 1em;
         color: white;
 
+    }
+}
+
+.sponsor-container {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+
+    @media screen and (min-width: $large) {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    grid-auto-rows: auto;
+    grid-auto-flow: row dense;
+    gap: 1em;
+    max-width: 2000px;
+
+    .sponsor-section {
+        @extend .card;
+        padding: 1em;
+        gap: 2em;
+        h3{
+            margin: 0;
+        }
+        // create, using a for, 12 classes c#n that span n columns
+        @for $i from 1 through 12 {
+            @media screen and(min-width:$large) {
+
+
+            &.c#{$i} {
+                grid-column: span $i;
+            }
+            }
+        }
+
+
+        &.r1{
+            grid-row: span 1;
+        }
+        &.r2 {
+            grid-row: span 2;
+        }
+
+        .sponsor-list {
+            margin: auto 0;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 2em;
+
+            text-align: center;
+            div.sponsor {
+
+                img {
+
+                    max-width: clamp(5em, 100%, 30vw);
+                    max-height: 6.5em;
+                    @media screen and (max-width: $large){
+                        max-height: 6em;
+                    }
+                    @media screen and (max-width: $medium) {
+                        max-width: 100%;
+                        max-height: 5em;
+                    }
+                }
+            }
+        }
     }
 }

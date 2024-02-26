@@ -16,6 +16,9 @@
 - text: Speakers
   link: speakers
   icon: podium
+- text: Partnership
+  link: partnership
+  icon: handshake
 - text: Media Hosts
   link: media_hosts
   icon: podcasts

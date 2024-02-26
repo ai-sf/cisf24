@@ -70,7 +70,7 @@ div.nav-menu {
   justify-content: flex-start;
   align-content: center;
   text-align: end;
-  width: calc(1*min(600px, calc(100vw - 100px)) - 20px);
+  width: calc(1*min(700px, calc(100vw - 100px)) - 20px);
   transition: 0.3s;
   height: 100%;
   z-index: 1;
@@ -83,6 +83,7 @@ div.nav-menu {
 
   ul{
   list-style-type: none;
+    overflow-y: scroll;
 
   li {
     width: 100%;

@@ -25,6 +25,6 @@
 - text: "Il logo"
   link: "logo"
   icon: draw_collage
-- text: Press & Guests Area
-  link: "press_guests"
+- text: Press Area
+  link: "https://hub.chicubo.it/"
   icon: newspaper

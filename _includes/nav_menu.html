@@ -4,7 +4,7 @@
 	<ul>
 	{% for item in site.data.menu %}
 		<li class="{{item.grow}}" style="">
-    <a href="{{site.url}}/{{item.link}}">
+    <a href="{{item.link}}">
         <div style="flex: 1;">{{item.text}}</div>
         <div><i  style="flex: 0" class="material-symbols-rounded">{{item.icon}}</i></div>
     </a>

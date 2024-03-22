@@ -1,0 +1,43 @@
+---
+layout: default
+title: Ostelli
+---
+
+
+<div class="container-smaller">
+    <div class="three-columns">
+        {% for lab in site.data.ostelli %}
+        <div class="card flex-column" style="align-items:stretch; justify-content: space-between; padding:1em;"
+            x-data="{ expanded: false }" @click="expanded = ! expanded">
+
+
+            <div class="card-header flex-column"
+                style="gap: 0.2em; align-items: center; text-align:center; justify-content: flex-start;">
+
+                <div class="img-full">
+                    <img src="{{lab.foto}}">
+                </div>
+                <div>
+                    <div style="font-size: 120%" class="text-bold text-accent">{{lab.nome}}</div>
+                    <div style="font-size: 70%"class="text-bold text-black">{{lab.indirizzo}}</div>
+                </div>
+            </div>
+            <div class="card-body" style="flex: 0">
+                <div class="flex flex-row align-items-center justify-content-center" style="gap:0.5em">
+                    <a  style="width:fit-content"
+                        class="btn btn-small btn-outline popup-trigger" href="{{lab.sito}}" target="blank"><i
+                            class="material-symbols-rounded" style="margin-right: 0.5em;">link</i>
+                        Sito</a>
+                        <a style="width:fit-content" href="{{lab.maps}}" class="btn mx-2 btn-small btn-outline popup-trigger"
+                          target="blank" ><i class="material-symbols-rounded" style="margin-right: 0.5em;">map</i>
+                            Mappa</a>
+                </div>
+
+            </div>
+
+        </div>
+        {% endfor %}
+
+    </div>
+</div>
+

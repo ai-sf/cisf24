@@ -10,6 +10,9 @@
 - text: "Laboratori"
   link: "laboratori"
   icon: experiment
+- text: "Ostelli"
+  link: "ostelli"
+  icon: hotel
 - text: "Comitato Organizzatore"
   link: "comitato_organizzatore"
   icon: diversity_3

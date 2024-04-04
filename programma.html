@@ -46,6 +46,7 @@ title: Programma
         </div>
         {% endif %}
 
+        {% if evento.speakers %}
     <div style="margin-top: 0.7em">
 
       {% for speaker in evento.speakers %}
@@ -58,6 +59,7 @@ title: Programma
       </div>
       {% endfor %}
       </div>
+    {% endif %}
         </div>
     </div>
     {% endif %}

@@ -11,108 +11,169 @@
       luogo: Dipartimento di Fisica
       aula: Aula Magna
       durata: 120
-    - ora: "17:00"
+    - ora: "16:30"
       titolo: Coffee Break
       luogo: Dipartimento di Fisica
       aula: Fisica Beach
       durata: 30
-    - ora: "17:30"
-      titolo: Plenaria I
-      #luogo: Dipartimento di Fisica
-      #aula: Aula Magna
+    - ora: "17:00"
+      tipo: Sessione Plenaria
+      titolo: Fisica delle Particelle
+      speakers:
+        - nome: "Prof. Joachim Mnich"
+          ruolo: "Director for Research and Computing. CERN"
+        - nome: Prof.ssa Stefania Beolè
+          ruolo: "Project Leader of the ALICE ITS, CERN and Full Professor, Dpt. of Physics, University of Turin"
+      luogo: Dipartimento di Fisica
+      aula: Aula Magna
       durata: 120
     - ora: "19:30"
       titolo: Cena autogestita
       durata: 120
     - ora: "21:30"
-      titolo: Attività sociale
-      luogo: Hotel Combo
+      titolo: Botta di Coulomb
+      tipo: Evento
       durata: 150
+      luogo: Combo Hostel
 
 - giorno: "18/04"
   eventi:
     - ora: "09:00"
       titolo: Visite ai laboratori
-      link: pargina dei laboratori
       durata: 270
     - ora: "13:30"
       titolo: Pranzo organizzato
       #luogo: Dipartimento di Fisica
       durata: 60
     - ora: "14:30"
-      titolo: Plenaria II
-      #luogo: Teatro Colosseo
+      tipo: Evento
+      titolo: Navigare la complessità
+      luogo: Cavallerizza Reale, Aula Magna
       durata: 120
+      speakers:
+        - nome: "Prof. Sergio Della Sala"
+          ruolo: "Professor of Neuropsychology, University of Edinburgh, President of CICAP"
     - ora: "16:30"
-      titolo: Coffee Break
-      #luogo: Teatro Colosseo
+      titolo: Pausa
       durata: 30
     - ora: "17:00"
-      titolo : Plenaria III
-      #luogo: Teatro Colosseo
+      titolo : Astrofisica
+      tipo: Sessione Plenaria
+      luogo: Cavallerizza Reale, Aula Magna
       durata: 120
-    - titolo: Tempo libero
-      empty: 90
+      speakers:
+        - nome: Prof. Davide Gandolfi
+          ruolo: "Professor, Dpt. of Physics University of Turin"
+        - nome: Prof. Matteo Brogi
+          ruolo: "Associate Professor, Dpt. of Physics University of Turin"
     - ora: "20:30"
       titolo: Cena sociale
+      luogo: Villa Glicini
       durata: 90
-    - ora: "22:00"
-      titolo: Serata libera
-      empty: 120
+
 - giorno: "19/04"
   eventi:
-    - titolo: Visita a Torino, Accademia delle Scienze
+    - tipo: Sessione Plenaria
+      titolo: Epistemologia applicata alla Cosmologia
       ora: "09:00"
-      durata: 240
+      durata: 120
+      luogo: Accademia delle Scienze
+      speakers:
+        - nome: Prof. Antonaldo Diaferio
+          ruolo: "Full Professor of Astronomy and Astrophysics, Dpt. of Physics, University of Turin, Correspondinf Fellow of the Academy of Sciences of Turin"
+    - tipo: Sessione Plenaria
+      titolo: Fisica delle Particelle Elementari
+      ora: "11:00"
+      durata: 120
+      luogo: Accademia delle Scienze
+      speakers:
+        - nome: Prof. Paolo Gambino
+          ruolo: "Full Professor of Theoretical Physics, Dpt. of Physics, University of Turin, Corresponding Fellow of the Academy of Sciences of Turin"
+        - nome: Prof. Marco Panero
+          ruolo: "Associate Professor, Dpt. of Physics, University of Turin"
     - titolo: Pranzo autogestito
       ora: "13:00"
       durata: 90
     - titolo: Assemblea Generale Annuale
+      luogo: Dipartimento di Fisica, Università di Torino
       ora: "14:00"
       durata: 360
     - titolo: Cena libera
       ora: "20:00"
       empty: 120
     - titolo: Bingo torinese
-      ora: "21:30"
-      durata: 180
+      ora: "22:00"
+      durata: 120
 - giorno: "20/04"
   eventi:
-    - empty: 60
-    - titolo: Plenaria IV
-      luogo: Palazzo Aldo Moro
-      aula: Aula Magna
-      ora: "10:00"
-      durata: 60
+    - titolo: Fisica del Clima
+      tipo: Sessione Plenaria
+      info: Evento in avvicinamento al festival "Un grado e mezzo" @ungradoemezzofestival
+      luogo: Complesso Aldo Moro
+      speakers:
+        - nome: Prof. Elisa Palazzi
+          ruolo: Climatologist, Associate Professor, Dpt. Physics, University of Turin
+        - nome: Nicolò Bagnasco
+          ruolo: Head of Programme, CISF24, and Student, University of Turin
+      ora: "9:00"
+      durata: 120
+    - titolo: Coffee Break
+      ora: "11:00"
+      durata: 30
+    - empty: 45
     - titolo: Pranzo organizzato
-      ora: "12:30"
-      durata: 60
-    - titolo: Plenaria V
-      ora: "13:30"
+      ora: "12:15"
       luogo: Dipartimento di Fisica
+      durata: 60
+    - titolo: Fisica dei Sistemi Complessi
+      tipo: Sessione Plenaria
+      luogo: Dipartimento di Fisica
+      speakers:
+        - nome: Prof. Matteo Osella
+          ruolo: Associate Professor, Dpt. of Physics, University of Turin
+        - nome: Dott. Filippo Valle
+          ruolo: Ph.D. in Complex Systems for Life Sciences
+      ora: "13:15"
       aula: Aula Magna
       durata: 90
     - titolo: Coffee Break
       durata: 30
-      ora: "15:00"
-    - titolo: Parallel Session
+      ora: "14:45"
+    - titolo: Sponsor Expo - ITT
+      ora: "15:15"
+      durata: 45
+    - titolo: Parallel Sessions
       durata: 180
-      ora: "15:30"
-    - empty: 180
-    - titolo: Serata finale
+      ora: "16:00"
+    - titolo: Cena autogestita
+      ora: "18:00"
+      durata: 180
+    - titolo: Evento Finale
+      luogo: Porto Urbano
       ora: "21:00"
       durata: 180
 - giorno: "21/04"
   eventi:
     - empty: 60
-    - titolo: Plenaria VI
+    - titolo: Fisica delle Tecnologie Avanzate
+      tipo: Sessione Plenaria
+      info: Evento in Collaborazione con Biennale Tecnologia
       ora: "10:00"
       luogo: Politencico di Torino
       aula: Aula Magna
       durata: 150
+      speakers:
+        - nome: Juan Carlos Miangolarra Page
+          ruolo: "Curatore Scientifico di Biennale Tecnologia"
+        - nome: Nicolò Bagnasco
+          ruolo: "Responsabile del Programma di CISF24"
+        - nome: Prof. Anne L'Huillier
+          ruolo: "2023 Nobel Prize for Physics Laureate"
+        - nome: Gianluca Dotti
+          ruolo: "Science Journalist and Communicator"
     - titolo: Pranzo autogestito
-      ora: "12:30"
-      durata: 60
+      ora: "12:00"
+      durata: 120
     - titolo: Cerimonia di chiusura
       ora: "14:00 - 16:00"
       durata: 120

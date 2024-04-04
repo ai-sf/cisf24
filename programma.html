@@ -17,27 +17,46 @@ title: Programma
     {% else  %}
 <div class="evento  duration-{{evento.durata}}">
 
-    <div class="card">
+    <div class="card card-event">
 
-    <div class="card-header">
 
-      <div class="ora-evento">
+                {% if evento.luogo %}<div class="luogo-evento" style="display: inline-flex; align-items:baseline; line-height: 110% ">
+                    <i class="material-symbols-rounded" style="width: 1.5em; font-size: 14pt; position:relative; top: 2px;">place</i>
+                    {{evento.luogo}}
+                    {% if evento.aula %} - {{evento.aula}} {% endif %}
+                </div>
+                {% endif %}
+      <div class="ora-evento" style="display: inline-flex; align-items:baseline;">
+        <i class="material-symbols-rounded" style="width: 1.5em;font-size: 14pt; position:relative; top: 1px;">schedule</i>
         {{evento.ora | date: ""}}
       </div>
-      <div class="titolo-evento" style="color: black;">
+
+      {% if evento.tipo %}
+        <div class="tipo-evento">
+            {{evento.tipo}}
+        </div>
+        {% endif %}
+      <div class="titolo-evento">
         {{evento.titolo}}
       </div>
 
-    </div>
-
-
-    <div class="card-body">
-          <!---<div class="luogo-evento">
-            {{evento.luogo}} - {{evento.aula}}
-          </div>
--->
+      {% if evento.info %}
+        <div class="info-evento">
+            {{evento.info}}
         </div>
-    </div>
+        {% endif %}
+
+
+      {% for speaker in evento.speakers %}
+      <div class="flex-row speaker">
+        <i class="material-symbols-rounded">person</i>
+        <div>
+            <div class="speaker-name">{{speaker.nome}}</div>
+            <div class="speaker-bio">{{speaker.ruolo}}</div>
+        </div>
+      </div>
+      {% endfor %}
+        </div>
     </div>
     {% endif %}
       {% endfor %}

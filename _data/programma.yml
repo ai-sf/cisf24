@@ -164,8 +164,6 @@
       aula: Aula Magna
       durata: 150
       speakers:
-        - nome: Juan Carlos Miangolarra Page
-          ruolo: "Curatore Scientifico di Biennale Tecnologia"
         - nome: Nicolò Bagnasco
           ruolo: "Responsabile del Programma di CISF24"
         - nome: Prof. Anne L'Huillier

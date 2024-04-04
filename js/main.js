@@ -30,5 +30,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
         });
     });
+
+
+    elms = document.querySelectorAll(".day-container")
+    elms.forEach((x) => {
+        day_and_month = x.dataset.day;
+        day = day_and_month.split("/")[0];
+        month = day_and_month.split("/")[1];
+
+        today = new Date()
+
+        if(day < today.getDate() && month <= today.getMonth()+1){
+            x.classList.add("semitransparent");
+        }
+     })
 });
 

@@ -9,7 +9,7 @@ title: Programma
     <div class="day-header">
       {{giorno.giorno}}
     </div>
-    <div>
+    <div class="day-container" data-day="{{giorno.giorno}}">
     {% for evento in giorno.eventi %}
     {% if evento.empty %}
 

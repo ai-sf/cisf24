@@ -66,6 +66,7 @@
           ruolo: "Professor, Dpt. of Physics University of Turin"
         - nome: Prof. Matteo Brogi
           ruolo: "Associate Professor, Dpt. of Physics University of Turin"
+    - empty: 90
     - ora: "20:30"
       titolo: Cena sociale
       luogo: Villa Glicini

@@ -32,6 +32,7 @@
       durata: 120
     - ora: "21:30"
       titolo: Botta di Coulomb
+      info: in collaborazione con il LC Pavia
       tipo: Evento
       durata: 150
       luogo: Combo Hostel
@@ -41,11 +42,11 @@
     - ora: "09:00"
       titolo: Visite ai laboratori
       durata: 270
-    - ora: "13:30"
+    - ora: "13:15"
       titolo: Pranzo organizzato
-      #luogo: Dipartimento di Fisica
+      luogo: Piazza Vittorio
       durata: 60
-    - ora: "14:30"
+    - ora: "14:00"
       tipo: Evento
       titolo: Navigare la complessità
       luogo: Cavallerizza Reale, Aula Magna
@@ -53,6 +54,8 @@
       speakers:
         - nome: "Prof. Sergio Della Sala"
           ruolo: "Professor of Neuropsychology, University of Edinburgh, President of CICAP"
+        - nome: Roberta Villa
+          ruolo: Health Journalist Writer
     - ora: "16:30"
       titolo: Pausa
       durata: 30
@@ -147,11 +150,11 @@
       durata: 180
       ora: "16:00"
     - titolo: Cena autogestita
-      ora: "18:00"
+      ora: "18:30"
       durata: 180
     - titolo: Evento Finale
       luogo: Porto Urbano
-      ora: "21:00"
+      ora: "21:30"
       durata: 180
 - giorno: "21/04"
   eventi:
@@ -164,8 +167,6 @@
       aula: Aula Magna
       durata: 150
       speakers:
-        - nome: Juan Carlos Miangolarra Page
-          ruolo: "Curatore Scientifico di Biennale Tecnologia"
         - nome: Nicolò Bagnasco
           ruolo: "Responsabile del Programma di CISF24"
         - nome: Prof. Anne L'Huillier

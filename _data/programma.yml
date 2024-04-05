@@ -119,7 +119,7 @@
           ruolo: Climatologist, Associate Professor, Dpt. Physics, University of Turin
         - nome: Nicolò Bagnasco
           ruolo: Head of Programme, CISF24, and Student, University of Turin
-      ora: "9:00"
+      ora: "09:00"
       durata: 120
     - titolo: Coffee Break
       luogo: Complesso Aldo Moro
@@ -186,5 +186,7 @@
       ora: "12:00"
       durata: 120
     - titolo: Cerimonia di chiusura
+      luogo: Dipartimento di Fisica
+      aula: Aula Magna
       ora: "14:00 - 16:00"
       durata: 120

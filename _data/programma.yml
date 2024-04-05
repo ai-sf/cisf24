@@ -146,9 +146,15 @@
     - titolo: Sponsor Expo - ITT
       ora: "15:15"
       durata: 45
+      luogo: Dipartimento di Fisica
+      speakers:
+        - nome: Dott. Agusti Sin
+          ruolo: "Materials & Process Innovation Director, ITT - Friction Technologies"
+      aula: Aula Magna    
     - titolo: Parallel Sessions
       durata: 180
       ora: "16:00"
+      luogo: Dipartimento di Fisica
     - titolo: Cena autogestita
       ora: "18:30"
       durata: 180

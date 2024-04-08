@@ -106,7 +106,7 @@
       durata: 360
     - titolo: Cena libera
       ora: "20:00"
-      empty: 120
+      durata: 120
     - titolo: Bingo torinese
       ora: "22:00"
       durata: 120

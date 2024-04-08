@@ -56,10 +56,10 @@
           ruolo: "Professor of Neuropsychology, University of Edinburgh, President of CICAP"
         - nome: Roberta Villa
           ruolo: Health Journalist Writer
-    - ora: "16:30"
+    - ora: "15:30"
       titolo: Pausa
       durata: 30
-    - ora: "17:00"
+    - ora: "16:00"
       titolo : Astrofisica
       tipo: Sessione Plenaria
       luogo: Cavallerizza Reale, Aula Magna

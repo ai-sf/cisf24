@@ -136,6 +136,7 @@
     - titolo: Pranzo organizzato
       ora: "12:15"
       luogo: Dipartimento di Fisica
+      aula: Fisica Beach
       durata: 60
     - titolo: Fisica dei Sistemi Complessi
       tipo: Sessione Plenaria

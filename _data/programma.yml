@@ -103,7 +103,8 @@
       ora: "13:00"
       durata: 90
     - titolo: Assemblea Generale Annuale
-      luogo: Dipartimento di Fisica, Università di Torino
+      luogo: Dipartimento di Fisica
+      aula: Aula Magna
       ora: "14:00"
       durata: 360
     - titolo: Cena autogestita
@@ -118,6 +119,7 @@
       tipo: Sessione Plenaria
       info: Evento in avvicinamento al festival "Un grado e mezzo" @ungradoemezzofestival
       luogo: Complesso Aldo Moro
+      aula: Auditorium
       speakers:
         - nome: Prof. Elisa Palazzi
           ruolo: Climatologist, Associate Professor, Dpt. Physics, University of Turin
@@ -127,6 +129,7 @@
       durata: 120
     - titolo: Coffee Break
       luogo: Complesso Aldo Moro
+      aula: Auditorium
       ora: "11:00"
       durata: 30
     - empty: 45

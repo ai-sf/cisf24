@@ -40,28 +40,28 @@
 
 - giorno: "18/04"
   eventi:
-    - ora: "09:00"
+    - ora: "09:00 - 13:15"
       titolo: Visite ai laboratori
-      durata: 270
-    - ora: "13:15"
+      durata: 255
+    - ora: "13:15 - 14:00"
       titolo: Pranzo organizzato
       luogo: Piazza Vittorio
-      durata: 60
-    - ora: "14:00"
+      durata: 45
+    - ora: "14:00 - 15:30"
       tipo: Evento
       titolo: Navigare la complessità
       luogo: Cavallerizza Reale
       aula: Aula Magna
-      durata: 120
+      durata: 90
       speakers:
         - nome: "Prof. Sergio Della Sala"
           ruolo: "Professor of Neuropsychology, University of Edinburgh, President of CICAP"
         - nome: Roberta Villa
           ruolo: Health Journalist Writer
-    - ora: "15:30"
+    - ora: "15:30 - 16:00"
       titolo: Pausa
       durata: 30
-    - ora: "16:00"
+    - ora: "16:00 - 18:00"
       titolo : Astrofisica
       tipo: Sessione Plenaria
       luogo: Cavallerizza Reale
@@ -72,19 +72,19 @@
           ruolo: "Professor, Dpt. of Physics University of Turin"
         - nome: Prof. Matteo Brogi
           ruolo: "Associate Professor, Dpt. of Physics University of Turin"
-    - ora: "18:00"
+    - ora: "18:00 - 20:30"
       titolo: Tempo libero
       durata: 150
-    - ora: "20:30"
+    - ora: "20:30 - 23:00"
       titolo: Cena sociale
       luogo: Villa Glicini
-      durata: 90
+      durata: 150
 
 - giorno: "19/04"
   eventi:
     - tipo: Sessione Plenaria
       titolo: Epistemologia applicata alla Cosmologia
-      ora: "09:00"
+      ora: "09:00 - 11:00"
       durata: 120
       luogo: Accademia delle Scienze
       aula: Sala Mappamondi
@@ -93,7 +93,7 @@
           ruolo: "Full Professor of Astronomy and Astrophysics, Dpt. of Physics, University of Turin, Correspondinf Fellow of the Academy of Sciences of Turin"
     - tipo: Sessione Plenaria
       titolo: Fisica delle Particelle Elementari
-      ora: "11:00"
+      ora: "11:00 - 13:00"
       durata: 120
       luogo: Accademia delle Scienze
       aula: Sala Mappamondi
@@ -103,15 +103,15 @@
         - nome: Prof. Marco Panero
           ruolo: "Associate Professor, Dpt. of Physics, University of Turin"
     - titolo: Pranzo autogestito
-      ora: "13:00"
-      durata: 90
+      ora: "13:00 - 14:00"
+      durata: 60
     - titolo: Assemblea Generale Annuale
       luogo: Dipartimento di Fisica
       aula: Aula Magna
-      ora: "14:00"
+      ora: "14:00 - 20:00"
       durata: 360
     - titolo: Cena autogestita
-      ora: "20:00"
+      ora: "20:00 - 22:00"
       durata: 120
     - titolo: Bingo torinese
       luogo: Città di Torino
@@ -129,16 +129,16 @@
           ruolo: Climatologist, Associate Professor, Dpt. Physics, University of Turin
         - nome: Nicolò Bagnasco
           ruolo: Head of Programme, CISF24, and Student, University of Turin
-      ora: "09:00"
+      ora: "09:00 - 11:00"
       durata: 120
     - titolo: Coffee Break
       luogo: Complesso Aldo Moro
       aula: Auditorium
-      ora: "11:00"
+      ora: "11:00 - 11:30"
       durata: 30
     - empty: 45
     - titolo: Pranzo organizzato
-      ora: "12:15"
+      ora: "12:15 - 13:15"
       luogo: Dipartimento di Fisica
       aula: Fisica Beach
       durata: 60
@@ -150,16 +150,16 @@
           ruolo: Associate Professor, Dpt. of Physics, University of Turin
         - nome: Dott. Filippo Valle
           ruolo: Ph.D. in Complex Systems for Life Sciences
-      ora: "13:15"
+      ora: "13:15 - 14:45"
       aula: Aula Magna
       durata: 90
     - titolo: Coffee Break
       luogo: Dipartimento di Fisica
       aula: Fisica Beach
       durata: 30
-      ora: "14:45"
+      ora: "14:45 - 15:15"
     - titolo: Sponsor Expo - ITT
-      ora: "15:15"
+      ora: "15:15 - 16:00"
       durata: 45
       luogo: Dipartimento di Fisica
       speakers:
@@ -167,26 +167,26 @@
           ruolo: "Materials & Process Innovation Director, ITT - Friction Technologies"
       aula: Aula Magna    
     - titolo: Parallel Sessions
-      durata: 180
-      ora: "16:00"
+      durata: 150
+      ora: "16:00 - 18:30"
       luogo: Dipartimento di Fisica
     - titolo: Cena autogestita
-      ora: "18:30"
+      ora: "18:30 - 21:30"
       durata: 180
     - titolo: Evento Finale
       luogo: Porto Urbano
-      ora: "21:30"
-      durata: 180
+      ora: "21:30 - 02:30"
+      durata: 300
 - giorno: "21/04"
   eventi:
     - empty: 60
     - titolo: Fisica delle Tecnologie Avanzate
       tipo: Sessione Plenaria
       info: Evento in Collaborazione con Biennale Tecnologia
-      ora: "10:00"
+      ora: "10:00 - 12:00"
       luogo: Politencico di Torino
       aula: Aula Magna
-      durata: 150
+      durata: 120
       speakers:
         - nome: Nicolò Bagnasco
           ruolo: "Responsabile del Programma di CISF24"

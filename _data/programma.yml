@@ -1,22 +1,22 @@
 - giorno: "17/04"
   eventi:
     - empty: 60
-    - ora: "10:00"
+    - ora: "10:00 - 15:00"
       titolo: "Accoglienza e registrazione"
       luogo: Dipartimento di Fisica
       aula: Atrio
       durata: 300
-    - ora: "15:00"
+    - ora: "15:00 - 16:30"
       titolo: "Cerimonia di apertura"
       luogo: Dipartimento di Fisica
       aula: Aula Magna
-      durata: 120
-    - ora: "16:30"
+      durata: 90
+    - ora: "16:30 - 17:30"
       titolo: Coffee Break
       luogo: Dipartimento di Fisica
       aula: Fisica Beach
-      durata: 30
-    - ora: "17:30"
+      durata: 60
+    - ora: "17:30 - 19:00"
       tipo: Sessione Plenaria
       titolo: Fisica delle Particelle
       speakers:
@@ -26,16 +26,17 @@
           ruolo: "Project Leader of the ALICE ITS, CERN and Full Professor, Dpt. of Physics, University of Turin"
       luogo: Dipartimento di Fisica
       aula: Aula Magna
-      durata: 120
-    - ora: "19:00"
+      durata: 90
+    - ora: "19:00 - 21:30"
       titolo: Cena autogestita
-      durata: 120
-    - ora: "21:30"
+      durata: 150
+    - ora: "21:30 - 23:50"
       titolo: Botta di Coulomb
       info: in collaborazione con il LC Pavia
       tipo: Evento
-      durata: 150
+      durata: 140
       luogo: Combo Hostel
+      aula: Sala Atlas
 
 - giorno: "18/04"
   eventi:

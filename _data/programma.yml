@@ -86,6 +86,7 @@
       ora: "09:00"
       durata: 120
       luogo: Accademia delle Scienze
+      aula: Sala Mappamondi
       speakers:
         - nome: Prof. Antonaldo Diaferio
           ruolo: "Full Professor of Astronomy and Astrophysics, Dpt. of Physics, University of Turin, Correspondinf Fellow of the Academy of Sciences of Turin"
@@ -94,6 +95,7 @@
       ora: "11:00"
       durata: 120
       luogo: Accademia delle Scienze
+      aula: Sala Mappamondi
       speakers:
         - nome: Prof. Paolo Gambino
           ruolo: "Full Professor of Theoretical Physics, Dpt. of Physics, University of Turin, Corresponding Fellow of the Academy of Sciences of Turin"

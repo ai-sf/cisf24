@@ -1,7 +1,7 @@
 - giorno: "17/04"
   eventi:
     - empty: 60
-    - ora: "10:00 - 15:00"
+    - ora: "10:00"
       titolo: "Accoglienza e registrazione"
       luogo: Dipartimento di Fisica
       aula: Atrio

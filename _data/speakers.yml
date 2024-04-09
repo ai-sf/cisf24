@@ -10,9 +10,17 @@
 - nome: Roberta Villa
   descrizione: |
     Laureata in medicina e chirurgia e da trent’anni giornalista scientifica sui temi della salute, collabora con diverse testate, tra cui La Repubblica online, Wired e Domani. Nel 2020 ha fatto parte del gruppo di esperti in appoggio alla task force anti fake-news sul Covid-19 della Presidenza del Consiglio. Ha partecipato a diversi progetti europei sulla preparazione alle pandemie e sulla comunicazione scientifica. È attualmente docente presso vari Master di comunicazione della scienza, oltre a essere spesso impegnata in talk e interventi in diversi contesti.
-  mostra: false
+  mostra: true
   ruolo: Health Journalist Writer
-  foto: img/speakers/roberta_villa.png
+  foto: img/speakers/Roberta_Villa.png
+  sessione: Evento "Navigare la Complessità"
+
+  - nome: Sergio Della Sala
+  descrizione: |
+    Laureato in medicina e dottore di ricerca in psicobiologia, è specializzato in neurologia. E’ attualmente professore di Human Cognitive Neuroscience presso l’Università di Edimburgo e capo redattore di Cortex, rivista scientifica dedicata alla relazione tra sistema nervoso e processi mentali. È stato insignito del premio “Tam Dalyell for Excellence in Engaging the Public with Science” grazie all’abilità nella divulgazione scientifica. È inoltre presidente del CICAP, il Comitato Italiano per il Controllo delle Affermazioni sulle Pseudoscienze.
+  mostra: true
+  ruolo: Neuropsychology Professor and President of CICAP
+  foto: img/speakers/Sergio_Della_Sala.png
   sessione: Evento "Navigare la Complessità"
 
 - nome: Paolo Gambino

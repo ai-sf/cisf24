@@ -6,6 +6,14 @@
   ruolo:
   foto: img/speakers/luca_parmitano.png
   sessione:
+  
+- nome: Roberta Villa
+  descrizione: |
+    Laureata in medicina e chirurgia e da trent’anni giornalista scientifica sui temi della salute, collabora con diverse testate, tra cui La Repubblica online, Wired e Domani. Nel 2020 ha fatto parte del gruppo di esperti in appoggio alla task force anti fake-news sul Covid-19 della Presidenza del Consiglio. Ha partecipato a diversi progetti europei sulla preparazione alle pandemie e sulla comunicazione scientifica. È attualmente docente presso vari Master di comunicazione della scienza, oltre a essere spesso impegnata in talk e interventi in diversi contesti.
+  mostra: false
+  ruolo: Health Journalist Writer
+  foto: img/speakers/roberta_villa.png
+  sessione: Evento "Navigare la Complessità"
 
 - nome: Paolo Gambino
   descrizione: |

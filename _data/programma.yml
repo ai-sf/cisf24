@@ -77,10 +77,10 @@
     - ora: "18:00 - 20:30"
       titolo: Tempo libero
       durata: 150
-    - ora: "20:30 - 23:00"
+    - ora: "20:30 - 01:00"
       titolo: Cena sociale
       luogo: Villa Glicini
-      durata: 150
+      durata: 270
 
 - giorno: "19/04"
   eventi:

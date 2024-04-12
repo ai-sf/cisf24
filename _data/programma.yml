@@ -47,7 +47,7 @@
       titolo: Pranzo organizzato
       luogo: Piazza Vittorio
       durata: 45
-    - ora: "14:00 - 15:30"
+    - ora: "14:30 - 16:00"
       tipo: Evento
       titolo: Navigare la complessità
       luogo: Cavallerizza Reale
@@ -58,15 +58,15 @@
           ruolo: "Professor of Neuropsychology, University of Edinburgh, President of CICAP"
         - nome: Roberta Villa
           ruolo: Health Journalist Writer
-    - ora: "15:30 - 16:00"
+    - ora: "16:00 - 16:30"
       titolo: Pausa
       durata: 30
-    - ora: "16:00 - 18:00"
+    - ora: "16:30 - 18:00"
       titolo : Astrofisica
       tipo: Sessione Plenaria
       luogo: Cavallerizza Reale
       aula: Aula Magna
-      durata: 120
+      durata: 90
       speakers:
         - nome: Prof. Davide Gandolfi
           ruolo: "Professor, Dpt. of Physics University of Turin"

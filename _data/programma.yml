@@ -68,8 +68,6 @@
       aula: Aula Magna
       durata: 90
       speakers:
-        - nome: Vittorio Baraldi
-          ruolo: "Science Influencer, @astroviktor"
         - nome: Prof. Davide Gandolfi
           ruolo: "Professor, Dpt. of Physics University of Turin"
         - nome: Prof. Matteo Brogi

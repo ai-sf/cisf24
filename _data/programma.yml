@@ -8,6 +8,15 @@
       durata: 300
     - ora: "15:00 - 16:30"
       titolo: "Cerimonia di apertura"
+      speakers:
+        - nome: Matteo Vismara
+          ruolo: "President of AISF"
+        - nome: Prof. Ermanno Vercellin
+          ruolo: "Full Professor and Head of the Dpt. of Physics, University of Turin"
+        - nome: Prof. Lorenzo Bianchi
+          ruolo: "Associate Professor, Dpt. of Physics University of Turin, Founding member of AISF"
+        - nome: Federico Canterucci
+          ruolo: "President of AISF Turin, General Coordinator of CISF24"  
       luogo: Dipartimento di Fisica
       aula: Aula Magna
       durata: 90

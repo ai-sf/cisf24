@@ -1,11 +1,34 @@
-- nome: Luca Parmitano
+- nome: Anne L'Huillier
   descrizione: |
-    Astronauta e militare italiano, è stato il primo italiano al comando della Stazione Spaziale Internazionale, nonchè il primo italiano ad aver effettuato un'attività extraveicolare.
-    Dopo aver ottenuto diversi riconoscimenti e qualifiche in ambito aeronautico, è stato selezionato come astronauta dall'ESA nel 2009. In totale ha trascorso nello spazio 366 giorni.
-  mostra: false
-  ruolo:
-  foto: img/speakers/luca_parmitano.png
-  sessione:
+    Fisica francese, è specializzata in fisica atomica. Dal 1986 al 1993 ha rivestito una posizione permanente presso il Centro di Ricerche Nucleari di Saclay, mentre dal 1997 è professoressa presso l’Università di Lund. È membro della Royal Swedish Academy of Sciences e membro straniero della National Academy of Sciences (USA) e dell'Austrian Academy of Sciences, nonchè socio straniero dell’Accademia Nazionale dei Lincei. È vincitrice del Premio Nobel per la Fisica 2023 “per i metodi sperimentali che generano impulsi di luce ad attosecondi per lo studio della dinamica degli elettroni nella materia".
+  mostra: true
+  ruolo: Nobel Prize for Physics 2023
+  foto: img/speakers/Anne_L'Huillier.png
+  sessione: Sessione Plenaria di Fisica delle Tecnologie Avanzate
+
+- nome: Adrian Fartade
+  descrizione: |
+    Divulgatore scientifico e youtuber, si occupa principalmente di astronomia e astronautica. Si è laureato in Storia e Filosofia (focalizzando gli studi su scienza e astronomia) all'Università di Siena. Dopo gli studi, nel 2009, ha creato il canale youtube Link4Universe, dove si occupa delle più recenti scoperte in campo astronomico e dello sviluppo del settore astronautico. È stato ospite in diverse trasmissioni televisive e festival, realizzatore di 4 podcast e autore di 3 libri. Inoltre il 15 Dicembre 2022 ha vinto il "Premio Nazionale di Divulgazione Scientifica Giancarlo Dosi" (sezione speciale "Libri di divulgazione per ragazzi") con il libro "Apollo Credici. Un game book spaziale".
+  mostra: true
+  ruolo: Science Communicator
+  foto: img/speakers/Adrian.png
+  sessione: Sessione Plenaria di Astrofisica
+  
+- nome: Roberta Villa
+  descrizione: |
+    Laureata in medicina e chirurgia e da trent’anni giornalista scientifica sui temi della salute, collabora con diverse testate, tra cui La Repubblica online, Wired e Domani. Nel 2020 ha fatto parte del gruppo di esperti in appoggio alla task force anti fake-news sul Covid-19 della Presidenza del Consiglio. Ha partecipato a diversi progetti europei sulla preparazione alle pandemie e sulla comunicazione scientifica. È attualmente docente presso vari Master di comunicazione della scienza, oltre a essere spesso impegnata in talk e interventi in diversi contesti.
+  mostra: true
+  ruolo: Health Journalist Writer
+  foto: img/speakers/Roberta_Villa .png
+  sessione: Evento "Navigare la Complessità"
+
+- nome: Sergio Della Sala
+  descrizione: |
+    Laureato in medicina e dottore di ricerca in psicobiologia, è specializzato in neurologia. E’ attualmente professore di Human Cognitive Neuroscience presso l’Università di Edimburgo e capo redattore di Cortex, rivista scientifica dedicata alla relazione tra sistema nervoso e processi mentali. È stato insignito del premio “Tam Dalyell for Excellence in Engaging the Public with Science” grazie all’abilità nella divulgazione scientifica. È inoltre presidente del CICAP, il Comitato Italiano per il Controllo delle Affermazioni sulle Pseudoscienze.
+  mostra: true
+  ruolo: Neuropsychology Professor and President of CICAP
+  foto: img/speakers/Sergio_Della_Sala.png
+  sessione: Evento "Navigare la Complessità"
 
 - nome: Paolo Gambino
   descrizione: |
@@ -27,10 +50,10 @@
   descrizione: |
     Specializzato nel settore della Fisica delle Particelle, è un esperto nell'ambito delle interazioni elettrodeboli e nello sviluppo di rivelatori per collisori di adroni e elettroni-positroni. Dopo essere entrato a far parte del gruppo CMS divenne professore presso l'Università di Amburgo nel 2005 e Research Director presso il DESY (Amburgo) nel 2009.
     È Director for Research and Computing presso il CERN dal 2021.
-  mostra: false
-  foto: img/speakers/joachim_mnich.png
-  ruolo:
-  sessione:
+  mostra: true
+  foto: img/speakers/Mnich.png
+  ruolo: CERN Director for Research and Computing
+  sessione: Sessione Plenaria di Fisica delle Particelle
 
 - nome: Elisa Palazzi
   descrizione: |
@@ -72,6 +95,14 @@
   mostra: true
   ruolo: Associate Professor at UniTo
   sessione: Sessione Plenaria di Astrofisica
+
+- nome: Matteo Osella
+  descrizione: |
+    Professore associato presso l'Università di Torino, si occupa di ricerca nel ramo della Fisica dei Sistemi Complessi, con particolare attenzione all'ambito degli algoritmi di machine learning applicati alla biologia. È attivo in diversi progetti di ricerca nel settore, tra i quali “BioPhys - Computational Biology”, che si propone di studiare alcuni meccanismi biologici tramite simulazioni e approcci tipici della fisica teorica, e “GENPHYS: Statistical Physics for Genomic Data Mining”, di cui è PI.
+  foto: img/speakers/Matteo_Osella.png
+  mostra: true
+  ruolo: Associate Professor at UniTo
+  sessione: Sessione Plenaria di Fisica dei Sistemi Complessi
 
 - nome: Filippo Valle
   descrizione: |

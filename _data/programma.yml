@@ -79,6 +79,8 @@
       aula: Aula Magna
       durata: 120
       speakers:
+        - nome: Adrian Fartade
+          ruolo: "Science Communicator"
         - nome: Prof. Davide Gandolfi
           ruolo: "Associate Professor, Dpt. of Physics, University of Turin"
         - nome: Prof. Matteo Brogi
@@ -195,7 +197,7 @@
       tipo: Sessione Plenaria
       info: Evento in collaborazione con Biennale Tecnologia
       ora: "10:00 - 12:00"
-      luogo: Politencico di Torino
+      luogo: Politecnico di Torino
       aula: Aula Magna
       durata: 120
       speakers:

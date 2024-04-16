@@ -19,6 +19,7 @@
     - ora: "17:00"
       tipo: Sessione Plenaria
       titolo: Fisica delle Particelle
+      streaming:
       speakers:
         - nome: "Prof. Joachim Mnich"
           ruolo: "Director for Research and Computing. CERN"
@@ -63,6 +64,7 @@
       titolo : Astrofisica
       tipo: Sessione Plenaria
       luogo: Cavallerizza Reale, Aula Magna
+      streaming:
       durata: 120
       speakers:
         - nome: Prof. Davide Gandolfi
@@ -79,6 +81,7 @@
   eventi:
     - tipo: Sessione Plenaria
       titolo: Epistemologia applicata alla Cosmologia
+      streaming:
       ora: "09:00"
       durata: 120
       luogo: Accademia delle Scienze
@@ -87,6 +90,7 @@
           ruolo: "Full Professor of Astronomy and Astrophysics, Dpt. of Physics, University of Turin, Correspondinf Fellow of the Academy of Sciences of Turin"
     - tipo: Sessione Plenaria
       titolo: Fisica delle Particelle Elementari
+      streaming:
       ora: "11:00"
       durata: 120
       luogo: Accademia delle Scienze
@@ -112,6 +116,7 @@
   eventi:
     - titolo: Fisica del Clima
       tipo: Sessione Plenaria
+      streaming:
       info: Evento in avvicinamento al festival "Un grado e mezzo" @ungradoemezzofestival
       luogo: Complesso Aldo Moro
       speakers:
@@ -131,6 +136,7 @@
       durata: 60
     - titolo: Fisica dei Sistemi Complessi
       tipo: Sessione Plenaria
+      streaming:
       luogo: Dipartimento di Fisica
       speakers:
         - nome: Prof. Matteo Osella
@@ -162,6 +168,7 @@
     - titolo: Fisica delle Tecnologie Avanzate
       tipo: Sessione Plenaria
       info: Evento in Collaborazione con Biennale Tecnologia
+      streaming:
       ora: "10:00"
       luogo: Politencico di Torino
       aula: Aula Magna

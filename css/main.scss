@@ -4,6 +4,7 @@
 $accent: #55438f;
 $accent2: #d446ae;
 
+
 $large: 1200px;
 $big: 1000px;
 $medium: 800px;
@@ -645,4 +646,9 @@ a.animate {
             }
         }
     }
+}
+
+.primary-background{
+    background-color: $accent !important;
+    color: white !important;
 }

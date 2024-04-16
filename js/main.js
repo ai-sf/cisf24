@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Assuming there is only one element with the class "popup-trigger"
     var triggers =  document.querySelectorAll(".popup-trigger");
+    const collapseElementList = document.querySelectorAll('.collapse')
+
 
 
     triggers.forEach(trigger => {

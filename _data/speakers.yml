@@ -9,9 +9,9 @@
 - nome: Adrian Fartade
   descrizione: |
     Divulgatore scientifico e youtuber, si occupa principalmente di astronomia e astronautica. Si è laureato in Storia e Filosofia (focalizzando gli studi su scienza e astronomia) all'Università di Siena. Dopo gli studi, nel 2009, ha creato il canale youtube Link4Universe, dove si occupa delle più recenti scoperte in campo astronomico e dello sviluppo del settore astronautico. È stato ospite in diverse trasmissioni televisive e festival, realizzatore di 4 podcast e autore di 3 libri. Inoltre il 15 Dicembre 2022 ha vinto il "Premio Nazionale di Divulgazione Scientifica Giancarlo Dosi" (sezione speciale "Libri di divulgazione per ragazzi") con il libro "Apollo Credici. Un game book spaziale".
-  mostra: false
+  mostra: true
   ruolo: Science Communicator
-  foto: img/speakers/Anne_L'Huillier.png
+  foto: img/speakers/Adrian.png
   sessione: Sessione Plenaria di Astrofisica
   
 - nome: Roberta Villa

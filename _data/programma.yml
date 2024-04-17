@@ -31,7 +31,7 @@
     - ora: "17:30 - 19:00"
       tipo: Sessione Plenaria
       titolo: Fisica delle Particelle
-      streaming:
+      streaming: https://unito-edu.webex.com/unito-edu/j.php?MTID=md7e85f249df4fca76dc307691cb8797b
       speakers:
         - nome: "Prof. Joachim Mnich"
           ruolo: "Director for Research and Computing. CERN"

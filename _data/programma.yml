@@ -81,6 +81,7 @@
       luogo: Cavallerizza Reale
       aula: Aula Magna
       durata: 120
+      streaming: https://media.unito.it/?channel=1
       speakers:
         - nome: Adrian Fartade
           ruolo: "Science Communicator"

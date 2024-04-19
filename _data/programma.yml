@@ -104,6 +104,7 @@
       ora: "09:00 - 11:00"
       durata: 120
       luogo: Accademia delle Scienze
+      streaming: https://www.youtube.com/@chicubomag
       aula: Sala Mappamondi
       speakers:
         - nome: Prof. Antonaldo Diaferio

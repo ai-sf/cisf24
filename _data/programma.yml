@@ -114,6 +114,7 @@
       ora: "11:00 - 13:00"
       durata: 120
       luogo: Accademia delle Scienze
+      streaming: https://www.youtube.com/watch?v=vIRuV3lATw4
       aula: Sala Mappamondi
       speakers:
         - nome: Prof. Paolo Gambino

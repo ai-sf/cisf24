@@ -165,7 +165,7 @@
       durata: 60
     - titolo: Fisica dei Sistemi Complessi
       tipo: Sessione Plenaria
-      streaming:
+      streaming: https://unito-edu.webex.com/unito-edu-it/j.php?MTID=m9fd6ea6d5b2ad626b236f52866851604
       luogo: Dipartimento di Fisica
       speakers:
         - nome: Prof. Matteo Osella

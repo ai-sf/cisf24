@@ -141,7 +141,7 @@
   eventi:
     - titolo: Fisica del Clima
       tipo: Sessione Plenaria
-      streaming:
+      streaming: https://unito-edu.webex.com/unito-edu/j.php?MTID=me7f504f21c7e53468b9d2b1988dea6fd
       info: Evento in avvicinamento al festival "Un grado e mezzo" @ungradoemezzofestival
       luogo: Complesso Aldo Moro
       aula: Auditorium
